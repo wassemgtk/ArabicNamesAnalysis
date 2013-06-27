@@ -34,9 +34,9 @@ it takes the writtin text and calls the language opposition procedure, then the 
 
 ### References
 
-[https://docs.palantir.com/pg/3.2.1.0/wwhelp/wwhimpl/js/html/wwhelp.htm#href=devguide/custom-code-setup.02.4.html]
-[https://docs.palantir.com/pg/3.2.1.0/wwhelp/wwhimpl/js/html/wwhelp.htm#href=devguide/helloworld.03.2.html]
-[https://docs.palantir.com/pg/3.3.1.0/wwhelp/wwhimpl/js/html/wwhelp.htm#href=devguide/helloworld.03.1.html]
+(https://docs.palantir.com/pg/3.2.1.0/wwhelp/wwhimpl/js/html/wwhelp.htm#href=devguide/custom-code-setup.02.4.html)
+(https://docs.palantir.com/pg/3.2.1.0/wwhelp/wwhimpl/js/html/wwhelp.htm#href=devguide/helloworld.03.2.html)
+(https://docs.palantir.com/pg/3.3.1.0/wwhelp/wwhimpl/js/html/wwhelp.htm#href=devguide/helloworld.03.1.html)
 
 
 Note I can't test the plugin because I do not have the Palantir platform.
