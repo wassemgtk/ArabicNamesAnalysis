@@ -1,0 +1,2959 @@
+<?xml version="1.0" encoding="Windows-1256"?> 
+<data file="Arname"> 
+<preg_replace function="__construct">
+  <pair>
+      <search>ابـاء</search>
+            <replace>امتناع شديد</replace>
+ </pair>
+  <pair>
+      <search>ابتهاج</search>
+      <replace>فرح</replace>
+ </pair>
+  <pair>
+      <search>ابتهال</search>
+      <replace>دعاء وتضرع</replace>
+ </pair>
+  <pair>
+      <search>ابلال</search>
+      <replace>شفاء</replace>
+ </pair>
+  <pair>
+      <search>اثار</search>
+      <replace>مابقى من الشي</replace>
+ </pair>
+  <pair>
+      <search>ادهم</search>
+      <replace>اسود</replace>
+ </pair>
+  <pair>
+      <search>اروى</search>
+      <replace>انثى الوعل</replace>
+ </pair>
+  <pair>
+      <search>اريب</search>
+
+      <replace>بصير بالامور</replace>
+ </pair>
+  <pair>
+      <search>اريج</search>
+      <replace>ريح طيبة</replace>
+ </pair>
+  <pair>
+      <search>اسامة</search>
+      <replace>من اسماء الاسد</replace>
+ </pair>
+  <pair>
+      <search>اسراء</search>
+      <replace>السير او السفر ليلاً او انتقال الرسول إلى بيت المقدس</replace>
+ </pair>
+  <pair>
+      <search>اسماء</search>
+      <replace>جمع اسم</replace>
+ </pair>
+  <pair>
+      <search>اسيا</search>
+      <replace>دواء  طبيبة</replace>
+ </pair>
+  <pair>
+      <search>اسيل</search>
+      <replace>ناعمة</replace>
+ </pair>
+  <pair>
+      <search>اصال</search>
+      <replace>جمع اصيل</replace>
+ </pair>
+  <pair>
+      <search>اغاريد</search>
+      <replace>غناء الطائر</replace>
+ </pair>
+  <pair>
+      <search>افنان</search>
+      <replace>جمع فنن وهو الغصن</replace>
+ </pair>
+  <pair>
+      <search>الاء</search>
+      <replace>نعم</replace>
+ </pair>
+  <pair>
+      <search>الطاف</search>
+      <replace>جمع لطف</replace>
+ </pair>
+  <pair>
+      <search>الهام</search>
+      <replace>وحي</replace>
+ </pair>
+  <pair>
+      <search>الهانم</search>
+      <replace>السيدة العقيلة والجمع هوانم</replace>
+ </pair>
+  <pair>
+      <search>امتثال</search>
+      <replace>طاعة</replace>
+ </pair>
+  <pair>
+      <search>امل</search>
+      <replace>رجاء</replace>
+ </pair>
+  <pair>
+      <search>آمنة</search>
+      <replace>مطمئنة</replace>
+ </pair>
+  <pair>
+      <search>اميمة</search>
+      <replace>تصغير ام</replace>
+ </pair>
+  <pair>
+      <search>انس</search>
+      <replace>من يؤنس به</replace>
+ </pair>
+  <pair>
+      <search>انصاف</search>
+      <replace>عدل</replace>
+ </pair>
+  <pair>
+      <search>انعام</search>
+      <replace>إفاضة النعمة</replace>
+ </pair>
+  <pair>
+      <search>انيسة</search>
+      <replace>مانوس بها</replace>
+ </pair>
+  <pair>
+      <search>ايهاب</search>
+
+      <replace>جلد</replace>
+ </pair>
+  <pair>
+      <search>اوس</search>
+
+      <replace>ذئب</replace>
+ </pair>
+  <pair>
+      <search>اياس</search>
+
+      <replace>انقطاع الرجاء</replace>
+ </pair>
+  <pair>
+      <search>اية</search>
+
+      <replace>علامة</replace>
+ </pair>
+  <pair>
+      <search>ايمان</search>
+
+      <replace>تصديق</replace>
+ </pair>
+  <pair>
+      <search>ايمن</search>
+
+      <replace>مبارك</replace>
+ </pair>
+  <pair>
+      <search>ايهاب</search>
+
+      <replace>جلد  والياء زائده</replace>
+ </pair>
+  <pair>
+      <search>بادي</search>
+
+      <replace>ظاهر  بارز</replace>
+ </pair>
+  <pair>
+      <search>بارعة</search>
+
+      <replace>متفوقة علما وفضيلة وجمالا</replace>
+ </pair>
+  <pair>
+      <search>باسل</search>
+
+      <replace>من اسماء الاسد</replace>
+ </pair>
+  <pair>
+      <search>باقر</search>
+
+      <replace>واسع العلم</replace>
+ </pair>
+  <pair>
+      <search>بانة</search>
+
+      <replace>شجرة البان</replace>
+ </pair>
+  <pair>
+      <search>باهرة</search>
+
+      <replace>ساطعة الاضاءة</replace>
+ </pair>
+  <pair>
+      <search>بتول</search>
+
+      <replace>منقطعه عن الزواج الى العبادة</replace>
+ </pair>
+  <pair>
+      <search>بثينة</search>
+
+      <replace>الارض السهلة اللينة</replace>
+ </pair>
+  <pair>
+      <search>بدران</search>
+
+      <replace>مثنى بدر وهو القمر</replace>
+ </pair>
+  <pair>
+      <search>بدور</search>
+
+      <replace>جمع بدر وهو القمر</replace>
+ </pair>
+  <pair>
+      <search>بسمة</search>
+
+      <replace>ضاحكة دون صوت</replace>
+ </pair>
+  
+  <pair>
+      <search>بشار</search>
+
+      <replace>من يبشر كثيرا</replace>
+ </pair>
+  
+  <pair>
+      <search>بشرى</search>
+
+      <replace>خبر مفرح</replace>
+ </pair>
+  
+  <pair>
+      <search>بكر</search>
+
+      <replace>فتي من الجمال</replace>
+ </pair>
+ 
+  <pair>
+      <search>بلال</search>
+
+      <replace>ماء</replace>
+ </pair>
+  
+  <pair>
+      <search>بلقيس</search>
+
+      <replace>ملكة مملكة سبا في اليمن</replace>
+ </pair>
+  
+  <pair>
+      <search>بليغ</search>
+
+      <replace>فصيح</replace>
+ </pair>
+  
+  <pair>
+      <search>بهي</search>
+
+      <replace>ذو حسن وظرف</replace>
+ </pair>
+  
+  <pair>
+      <search>بهيج</search>
+
+      <replace>مفرح</replace>
+ </pair>
+  
+  <pair>
+      <search>بهير</search>
+
+      <replace>صاحب السعي الشديد</replace>
+ </pair>
+  
+  <pair>
+      <search>بهيرة</search>
+
+      <replace>صاحبة السعي الشديد</replace>
+ </pair>
+  
+  <pair>
+      <search>بوح</search>
+
+      <replace>كشف السر</replace>
+ </pair>
+  
+   <pair>
+      <search>تالة</search>
+
+      <replace>نخلة صغيرة</replace>
+ </pair>
+  
+  <pair>
+      <search>تالد</search>
+
+      <replace>قديم</replace>
+ </pair>
+  
+  <pair>
+      <search>تذكار</search>
+
+      <replace>استرجاع الماضي</replace>
+ </pair>
+  
+  <pair>
+      <search>ترنيم</search>
+
+      <replace>تغريد</replace>
+ </pair>
+  
+  <pair>
+      <search>تفاني</search>
+
+      <replace>تضحية</replace>
+ </pair>
+  
+  <pair>
+      <search>تقوى</search>
+
+      <replace>خوف الله</replace>
+ </pair>
+  
+  <pair>
+      <search>تقي </search>
+
+      <replace>الذي يطيع الله</replace>
+ </pair>
+ 
+  <pair>
+      <search>تماضر</search>
+
+      <replace>ناعمة</replace>
+ </pair>
+  
+  <pair>
+      <search>تمام </search>
+
+      <replace>تام الخلق</replace>
+ </pair>
+ 
+  <pair>
+      <search>تميمة</search>
+
+      <replace>كاملة الخلق</replace>
+ </pair>
+  
+  <pair>
+      <search>تنال</search>
+
+      <replace>تبلغ</replace>
+ </pair>
+  
+  <pair>
+      <search>تودد</search>
+
+      <replace>تحبب</replace>
+ </pair>
+  
+  <pair>
+      <search>توفيق</search>
+
+      <replace>نجاح</replace>
+ </pair>
+  
+  <pair>
+      <search>تيسير</search>
+
+      <replace>تسهيل</replace>
+ </pair>
+ 
+  <pair>
+      <search>تيماء</search>
+
+      <replace>اسم واحة</replace>
+ </pair>
+  
+  <pair>
+      <search>ثائر</search>
+
+      <replace>غاضب</replace>
+ </pair>
+  
+  <pair>
+      <search>ثابت</search>
+
+      <replace>مواظب  شجاع</replace>
+ </pair>
+  
+  <pair>
+      <search>ثاقب</search>
+
+      <replace>نافذ الراي</replace>
+ </pair>
+  
+  <pair>
+      <search>ثامر</search>
+
+      <replace>شجر طلع ثمره</replace>
+ </pair>
+  
+  <pair>
+      <search>ثريا</search>
+
+      <replace>مجموعة كواكب</replace>
+ </pair>
+  
+  <pair>
+      <search>ثنيان</search>
+
+      <replace>هو الولد الثاني</replace>
+ </pair>
+  
+  <pair>
+      <search>ثواب</search>
+
+      <replace>الجزاء</replace>
+ </pair>
+  
+  <pair>
+      <search>ثومة</search>
+
+      <replace>مفرد ثوم</replace>
+ </pair>
+  
+  <pair>
+      <search>جارم</search>
+
+      <replace>قاطع ثمر النخل</replace>
+ </pair>
+
+  <pair>
+      <search>جاسم</search>
+
+      <replace>عظيم  ضخم</replace>
+ </pair>
+ 
+  <pair>
+      <search>حسن</search>
+
+      <replace>وسمّوا ايضاً الحَسَن الجميل الخَلْق والخُلق  النَّضر  البهيّ  المشرق  الكثيب العالي النقي  الجبل الشاهق  وصنف من الاشجار الجميلة</replace>
+ </pair>
+ 
+  <pair>
+      <search>جبر</search>
+
+      <replace>اصلاح العظم</replace>
+ </pair>
+  
+  <pair>
+      <search>جذيمة</search>
+
+      <replace>مايقطع بسرعه</replace>
+ </pair>
+  
+  <pair>
+      <search>جعفر</search>
+
+      <replace>نهر</replace>
+ </pair>
+  
+  <pair>
+      <search>جمالات</search>
+
+      <replace>جمع جمال</replace>
+ </pair>
+  
+  <pair>
+      <search>جنان</search>
+
+      <replace>ليل  قلب</replace>
+ </pair>
+ 
+  <pair>
+      <search>جنيد</search>
+
+      <replace>تصغير جند</replace>
+ </pair>
+ 
+  <pair>
+      <search>جهراء</search>
+
+      <replace>جميلة الهيئة</replace>
+ </pair>
+  
+  <pair>
+      <search>جهم</search>
+
+      <replace>عابس الوجه</replace>
+ </pair>
+  
+  <pair>
+      <search>جهينة</search>
+
+      <replace>اخر الليل</replace>
+ </pair>
+  
+  <pair>
+      <search>جواد</search>
+
+      <replace>كريم</replace>
+ </pair>
+  
+  <pair>
+      <search>جويرية</search>
+
+      <replace>تصغير جار</replace>
+ </pair>
+ 
+  <pair>
+      <search>حاتم</search>
+
+      <replace>حاكم وقاض</replace>
+ </pair>
+
+ 
+  <pair>
+      <search>حارث</search>
+
+      <replace>كنية الاسد</replace>
+ </pair>
+  
+  <pair>
+      <search>حازم</search>
+
+      <replace>ضابط الامر</replace>
+ </pair>
+ 
+  <pair>
+      <search>حباب</search>
+
+      <replace>فقاقيع تعلو الماء</replace>
+ </pair>
+  
+  <pair>
+      <search>حذيفة</search>
+
+      <replace>تصغير حذفة اي ماقطع من الثوب</replace>
+ </pair>
+  
+  <pair>
+      <search>حردان</search>
+
+      <replace>غاضب</replace>
+ </pair>
+  
+  <pair>
+      <search>حسام</search>
+
+      <replace>سيف</replace>
+ </pair>
+  
+  <pair>
+      <search>حسون</search>
+
+      <replace>طائر حسن الصوت والالوان</replace>
+ </pair>
+ 
+  <pair>
+      <search>حصة</search>
+
+      <replace>نصيب</replace>
+ </pair>
+  
+  <pair>
+      <search>حفص</search>
+
+      <replace>شبل الاسد</replace>
+ </pair>
+  
+  <pair>
+      <search>حفصة</search>
+
+      <replace>شبل الاسد</replace>
+ </pair>
+  
+  <pair>
+      <search>حمزة</search>
+
+      <replace>من اسماء الاسد</replace>
+ </pair>
+  
+  <pair>
+      <search>حنفي</search>
+
+      <replace>نسبة الى ابي حنيفة</replace>
+ </pair>
+  
+  <pair>
+      <search>حواء</search>
+
+      <replace>سواد ضارب الى الحمرة</replace>
+ </pair>
+  
+  <pair>
+      <search>حوراء</search>
+
+      <replace>شتداد بياض العين والسواد</replace>
+ </pair>
+  
+  <pair>
+      <search>حيان</search>
+
+      <replace>مثنى حي</replace>
+ </pair>
+  
+  <pair>
+      <search>حيدر</search>
+
+      <replace>من اسماء الاسد</replace>
+ </pair>
+  
+  <pair>
+      <search>حيي </search>
+
+      <replace>تصغير حي</replace>
+ </pair>
+ 
+  <pair>
+      <search>خديجة </search>
+
+      <replace>مولوده قبل تمام ايامها</replace>
+ </pair>
+ 
+  <pair>
+      <search>خديجة</search>
+
+      <replace>المولودة قبل اوان ولادتها</replace>
+ </pair>
+   
+  <pair>
+      <search>خزامى</search>
+
+      <replace>زهر متعدد الالوان</replace>
+ </pair>
+  
+  <pair>
+      <search>خزيمة</search>
+
+      <replace>زهر طيب الرائحة</replace>
+ </pair>
+  
+  <pair>
+      <search>خضاب</search>
+
+      <replace>مايلون به</replace>
+ </pair>
+  
+  <pair>
+      <search>خطاب</search>
+
+      <replace>واعظ</replace>
+ </pair>
+  
+  <pair>
+      <search>خفاجة</search>
+
+      <replace>صاحب كبر وفخر</replace>
+ </pair>
+  
+  <pair>
+      <search>خفر</search>
+
+      <replace>حياء</replace>
+ </pair>
+  
+  <pair>
+      <search>خلف</search>
+
+      <replace>ذرية</replace>
+ </pair>
+  
+  <pair>
+      <search>خلوب</search>
+
+      <replace>فاتنة</replace>
+ </pair>
+  
+  <pair>
+      <search>خنساء </search>
+
+      <replace>بقرة وحشية</replace>
+ </pair>
+ 
+  <pair>
+      <search>خولة</search>
+
+      <replace>ظبية</replace>
+ </pair>
+ 
+  <pair>
+      <search>خيزران</search>
+
+      <replace>نبات مشهور بلينه</replace>
+ </pair>
+  
+  <pair>
+      <search>درباس</search>
+
+      <replace>من اسماء الاسد</replace>
+ </pair>
+
+  <pair>
+      <search>دارم</search>
+
+      <replace>الذي دنا وقوع اسنانه</replace>
+ </pair>
+  
+  <pair>
+      <search>داغر</search>
+
+      <replace>هاجم</replace>
+ </pair>
+  
+  <pair>
+      <search>دالي</search>
+
+      <replace>مرسل الدلو الى البئر</replace>
+ </pair>
+  
+  <pair>
+      <search>دانة</search>
+
+      <replace>حجر كريم</replace>
+ </pair>
+  
+  <pair>
+      <search>داني</search>
+
+      <replace>قريب</replace>
+ </pair>
+  
+  <pair>
+      <search>دجوى</search>
+
+      <replace>شديدة الظلام</replace>
+ </pair>
+  
+  <pair>
+      <search>دجى</search>
+
+      <replace>ظلام</replace>
+ </pair>
+ 
+  <pair>
+      <search>دحام</search>
+
+      <replace>الدافع دفعا شديدا</replace>
+ </pair>
+  
+  <pair>
+      <search>دحداح</search>
+
+      <replace>قصير</replace>
+ </pair>
+  
+  <pair>
+      <search>دحية</search>
+
+      <replace>رئيس الجند</replace>
+ </pair>
+  
+  
+  <pair>
+      <search>دريد</search>
+
+      <replace>من ذهبت اسنانه</replace>
+ </pair>
+  
+  <pair>
+      <search>دعاس</search>
+
+      <replace>دفاع</replace>
+ </pair>
+  
+  <pair>
+      <search>دعيج</search>
+
+      <replace>العين الواسعه شديدة السواد</replace>
+ </pair>
+  
+  <pair>
+      <search>دلامة</search>
+
+      <replace>من كان اسود طويل</replace>
+ </pair>
+  
+  <pair>
+      <search>دهام</search>
+
+      <replace>شديد السواد</replace>
+ </pair>
+  <pair>
+      <search>دهيم</search>
+
+      <replace>اسود</replace>
+ </pair>
+  <pair>
+      <search>دوحة</search>
+
+      <replace>شجرة عظيمه</replace>
+ </pair>
+  <pair>
+      <search>ديمة</search>
+
+      <replace>مطرة دائمة في سكون</replace>
+ </pair>
+  <pair>
+      <search>دينا</search>
+
+      <replace>القرض المؤجلالطاعةالمحاسب</replace>
+ </pair>
+  <pair>
+      <search>ذبيان</search>
+
+      <replace>اسم قبيلة</replace>
+ </pair>
+  <pair>
+      <search>ذرى</search>
+
+      <replace>جمع ذروة وهي القمة</replace>
+ </pair>
+  <pair>
+      <search>ذكرى</search>
+
+      <replace>الحفظالاستحضارالفطنه بعد النسيانالاعياد والمناسبات والعبرة</replace>
+ </pair>
+  <pair>
+      <search>رئال</search>
+
+      <replace>ولد النعامه</replace>
+ </pair>
+  <pair>
+      <search>رئبال</search>
+
+      <replace>من اسماء الاسد</replace>
+ </pair>
+  <pair>
+      <search>رؤيا</search>
+
+      <replace>مايراه النائم</replace>
+ </pair>
+  <pair>
+      <search>رئيف</search>
+
+      <replace>شفوق</replace>
+ </pair>
+  <pair>
+      <search>رائد </search>
+
+      <replace>رسول القوم</replace>
+ </pair>
+ 
+  <pair>
+      <search>راجح</search>
+
+      <replace>غالب برايه على غيره</replace>
+ </pair>
+  <pair>
+      <search>راح</search>
+
+      <replace>خمر</replace>
+ </pair>
+  <pair>
+      <search>رازن</search>
+
+      <replace>هادئ الطبع</replace>
+ </pair>
+  <pair>
+      <search>رازي</search>
+
+      <replace>قابل البر</replace>
+ </pair>
+  <pair>
+      <search>راغب</search>
+
+      <replace>مريد ومحب</replace>
+ </pair>
+  <pair>
+      <search>رامز</search>
+
+      <replace>مشير</replace>
+ </pair>
+  <pair>
+      <search>رامي</search>
+
+      <replace>اسم كوكب</replace>
+ </pair>
+  <pair>
+      <search>راني</search>
+
+      <replace>مديم النظر بسكون الطرف</replace>
+ </pair>
+ 
+  <pair>
+      <search>رانيا</search>
+
+      <replace>مديمة النظر</replace>
+ </pair>
+  <pair>
+      <search>راوي</search>
+
+      <replace>محدث وقاص</replace>
+ </pair>
+  <pair>
+      <search>رباب</search>
+
+      <replace>السحاب الابيض</replace>
+ </pair>
+  <pair>
+      <search>ربى</search>
+
+      <replace>جمع ربوه وهي التلة</replace>
+ </pair>
+  <pair>
+      <search>ربيعه</search>
+
+      <replace>روضه</replace>
+ </pair>
+  <pair>
+      <search>رحاب</search>
+
+      <replace>الارض الواسعة</replace>
+ </pair>
+  <pair>
+      <search>رشا</search>
+
+      <replace>ولد الظبية</replace>
+ </pair>
+  <pair>
+      <search>رشوان</search>
+
+      <replace>من اعطى رشوة</replace>
+ </pair>
+  <pair>
+      <search>رضاب</search>
+
+      <replace>رغوة العسل</replace>
+ </pair>
+  <pair>
+      <search>رضوان</search>
+
+      <replace>قبول</replace>
+ </pair>
+  <pair>
+      <search>رضوى</search>
+
+      <replace>المحبة المطيعة وهو اسم جبل بين المدينة وينبع</replace>
+ </pair>
+  <pair>
+      <search>رضوى</search>
+
+      <replace>اسم جبل</replace>
+ </pair>
+ 
+  <pair>
+      <search>رعلة</search>
+
+      <replace>نعامة</replace>
+ </pair>
+  <pair>
+      <search>رفاعه</search>
+
+      <replace>ارتفاع الصوت</replace>
+ </pair>
+  <pair>
+      <search>رفال</search>
+
+      <replace>شعر طويل</replace>
+ </pair>
+  <pair>
+      <search>رلى</search>
+
+      <replace>اسم قبيلة</replace>
+ </pair>
+  <pair>
+      <search>رنده</search>
+
+      <replace>شجرة طيبة الرائحه</replace>
+ </pair>
+  <pair>
+      <search>رنين</search>
+
+      <replace>صوت حزين</replace>
+ </pair>
+  <pair>
+      <search>رهام</search>
+
+      <replace>امطار خفيفة</replace>
+ </pair>
+  <pair>
+      <search>رهج</search>
+
+      <replace>مااثير من غبار</replace>
+ </pair>
+  <pair>
+      <search>رواحة</search>
+
+      <replace>سرور</replace>
+ </pair>
+  <pair>
+      <search>روان</search>
+
+      <replace>جمع رانيا</replace>
+ </pair>
+  <pair>
+      <search>رويد</search>
+
+      <replace>تمهل</replace>
+ </pair>
+  <pair>
+      <search>رويدة</search>
+
+      <replace>المهل والرفق في المشي</replace>
+ </pair>
+  <pair>
+      <search>ريا</search>
+
+      <replace>ضد عطشانه</replace>
+ </pair>
+  <pair>
+      <search>ريان</search>
+
+      <replace>عكس عطشان</replace>
+ </pair>
+  <pair>
+      <search>ريم</search>
+
+      <replace>ظبي ابيض</replace>
+ </pair>
+  <pair>
+      <search>زاكي</search>
+
+      <replace>طيب</replace>
+ </pair>
+  <pair>
+      <search>زاهي</search>
+
+      <replace>متكبر  مشرق الوجه</replace>
+ </pair>
+  <pair>
+      <search>زباء</search>
+
+      <replace>كثيرة الشعر</replace>
+ </pair>
+  <pair>
+      <search>زغلول</search>
+
+      <replace>فرخ الحمام</replace>
+ </pair>
+  <pair>
+      <search>زكي</search>
+
+      <replace>طيب</replace>
+ </pair>
+  <pair>
+      <search>زلفى</search>
+
+      <replace>قربى</replace>
+ </pair>
+  <pair>
+      <search>زهران</search>
+
+      <replace>مشرق الوجه</replace>
+ </pair>
+  <pair>
+      <search>زهوة</search>
+
+      <replace>ثمر النخل حين تصفر وتحمر</replace>
+ </pair>
+  <pair>
+      <search>زيان</search>
+
+      <replace>مزخرف</replace>
+ </pair>
+  <pair>
+      <search>زينات</search>
+
+      <replace>نوع من الزهر</replace>
+ </pair>
+  <pair>
+      <search>زينب</search>
+
+      <replace>شجر حسن المنظر</replace>
+ </pair>
+  <pair>
+      <search>حسين</search>
+
+      <replace>حُسَيْنَةوسمُّوا ايضاً الحُسَين وهو تصغير الحَسَن  الجميل الخَلْق والخُلق  البهيّ المُشرق  الكثيب العالي  الجبل الشَّاهق  وصنف من الاشجار الجميلة الحُسين الابن الثاني لعليّ وفاطمةعليهم السلام اقام في المدينة ورفض مبايعة يزيد بن معاوية وقاد ثورة ضده  قُتِل واهلُ بيته واصحابه في كربلاء في معركة انتصر فيها الدم على السيف  في العاشر من محرَّم من السنة الواحدة والستين للهجرة  تعتبر حياته مدرسة ثورية لكلّ المكافحين ضد الظلم والطغيان  وثورته كانت وثبة شجاعة اطلقت هواء الحرية بالفداء والاستشهاد في فضاء الزمن  ما دام هذا الزمن ينبض بالحياة ومن اقواله قبل استشهاده إني لا ارى الموت إلاّ سعادة والحياة مع الظالمين إلاّ برماً  وكان قد قال النبي محمد صلى الله عليه وسلم في استشهاد الحسين  إنَّ لقتل الحسين حرارة في قلوب المؤمنين لا تبرد ابداً </replace>
+ </pair>
+  <pair>
+      <search>ساجد</search>
+      <replace>متعبد</replace>
+ </pair>
+  <pair>
+      <search>ساري</search>
+
+      <replace>سائر ليلا</replace>
+ </pair>
+  <pair>
+      <search>سامر</search>
+
+      <replace>ساهر بالليل يتحدث</replace>
+ </pair>
+  <pair>
+      <search>سامق</search>
+
+      <replace>عال  طويل</replace>
+ </pair>
+  <pair>
+      <search>سامي</search>
+
+      <replace>مرتفع</replace>
+ </pair>
+  <pair>
+      <search>ساهي</search>
+
+      <replace>غافل</replace>
+ </pair>
+  <pair>
+      <search>سبا</search>
+
+      <replace>مملكة يمنية</replace>
+ </pair>
+  <pair>
+      <search>سجايا</search>
+
+      <replace>الطبيعة والخلق</replace>
+ </pair>
+  <pair>
+      <search>سجي</search>
+
+      <replace>دائم</replace>
+ </pair>
+  <pair>
+      <search>سحبان</search>
+
+      <replace>رجل يجرف كل مامر به</replace>
+ </pair>
+  <pair>
+      <search>سحر</search>
+
+      <replace>اخر الليل</replace>
+ </pair>
+  <pair>
+      <search>سحنون</search>
+
+      <replace>كاسر الحجارة</replace>
+ </pair>
+  <pair>
+      <search>سحيم</search>
+
+      <replace>اسود اللون</replace>
+ </pair>
+  <pair>
+      <search>سداد</search>
+
+      <replace>صواب</replace>
+ </pair>
+  <pair>
+      <search>سدير</search>
+
+      <replace>شباسم نهر</replace>
+ </pair>
+  <pair>
+      <search>سراج</search>
+
+      <replace>مصباح</replace>
+ </pair>
+  <pair>
+      <search>سرحال</search>
+
+      <replace>ذئب</replace>
+ </pair>
+  <pair>
+      <search>سري</search>
+
+      <replace>نهر صغير</replace>
+ </pair>
+  <pair>
+      <search>سطام</search>
+
+      <replace>مغلق الباب</replace>
+ </pair>
+  <pair>
+      <search>سفوان</search>
+
+      <replace>ماء تسفيه الرياح</replace>
+ </pair>
+  <pair>
+      <search>سلافة</search>
+
+      <replace>ماسال قبل العصر</replace>
+ </pair>
+  <pair>
+      <search>سلمان</search>
+
+      <replace>برئ من العيوب</replace>
+ </pair>
+  <pair>
+      <search>سلمة</search>
+
+      <replace>نوع من الشجر</replace>
+ </pair>
+  <pair>
+      <search>سمار</search>
+
+      <replace>لبن رقيق</replace>
+ </pair>
+  <pair>
+      <search>سماك</search>
+
+      <replace>مايرفع به الشي</replace>
+ </pair>
+  <pair>
+      <search>سماهر</search>
+
+      <replace>الرمح الصلب</replace>
+ </pair>
+  <pair>
+      <search>سمر</search>
+
+      <replace>حديث الليل</replace>
+ </pair>
+  <pair>
+      <search>سنان</search>
+
+      <replace>نصل الرمح</replace>
+ </pair>
+  <pair>
+      <search>سندس</search>
+
+      <replace>نوع من الحرير</replace>
+ </pair>
+  <pair>
+      <search>سني</search>
+
+      <replace>رفيع  مضيئ</replace>
+ </pair>
+  <pair>
+      <search>سهى</search>
+
+      <replace>احد الكواكب</replace>
+ </pair>
+  <pair>
+      <search>سوسن</search>
+
+      <replace>زهر معروف</replace>
+ </pair>
+  <pair>
+      <search>سوى</search>
+
+      <replace>عدل</replace>
+ </pair>
+  <pair>
+      <search>سويد</search>
+
+      <replace>تصغير اسود</replace>
+ </pair>
+  <pair>
+      <search>سيسبان</search>
+
+      <replace>اسم شجرة جميلة</replace>
+ </pair>
+  <pair>
+      <search>سيفان</search>
+
+      <replace>ممشوق طويل</replace>
+ </pair>
+  <pair>
+      <search>شادن</search>
+
+      <replace>ولد الظبية</replace>
+ </pair>
+  <pair>
+      <search>شادية</search>
+
+      <replace>منشدة الشعر</replace>
+ </pair>
+  <pair>
+      <search>شامخ</search>
+
+      <replace>العالىالنسب الشريفالرافع انفه كبراً</replace>
+ </pair>
+  <pair>
+      <search>شامخ</search>
+
+      <replace>مرتفع</replace>
+ </pair>
+  <pair>
+      <search>شامل</search>
+
+      <replace>عام</replace>
+ </pair>
+  <pair>
+      <search>شاهر</search>
+
+      <replace>سال السيف</replace>
+ </pair>
+  <pair>
+      <search>شبيب</search>
+
+      <replace>نشيط</replace>
+ </pair>
+  <pair>
+      <search>شريح</search>
+
+      <replace>تصغير شرح اي سرور</replace>
+ </pair>
+  <pair>
+      <search>شغاف</search>
+
+      <replace>غشاء القلب</replace>
+ </pair>
+  <pair>
+      <search>شكيب</search>
+
+      <replace>صاحب الجزاء او العطاء</replace>
+ </pair>
+  <pair>
+      <search>شوقي</search>
+
+      <replace>نسبة للشوق</replace>
+ </pair>
+  <pair>
+      <search>شيبان</search>
+
+      <replace>الذي ابيض شعره</replace>
+ </pair>
+  <pair>
+      <search>شيماء</search>
+
+      <replace>من ظهرت عليها شامة</replace>
+ </pair>
+  <pair>
+      <search>صبا</search>
+      <replace>حب وحنين</replace>
+ </pair>
+  <pair>
+      <search>صباح</search>
+
+      <replace>جميل</replace>
+ </pair>
+  <pair>
+      <search>صبحى</search>
+
+      <replace>المنسوب إلى الصبح او الامر الواضح</replace>
+ </pair>
+  <pair>
+      <search>صدام</search>
+
+      <replace>القوى الكثير الدفع والصدم</replace>
+ </pair>
+  <pair>
+      <search>صفوان</search>
+
+      <replace>حجر املس</replace>
+ </pair>
+  <pair>
+      <search>صفوح</search>
+
+      <replace>كريم</replace>
+ </pair>
+  <pair>
+      <search>صفي</search>
+
+      <replace>نقي</replace>
+ </pair>
+  <pair>
+      <search>صهباء</search>
+
+      <replace>خمرة</replace>
+ </pair>
+  <pair>
+      <search>صهيب</search>
+
+      <replace>الذي يخالط بياضه حمره</replace>
+ </pair>
+  <pair>
+      <search>صوان</search>
+
+      <replace>حجر شديد</replace>
+ </pair>
+  <pair>
+      <search>ضاحي</search>
+
+      <replace>بارز للشمس</replace>
+ </pair>
+  <pair>
+      <search>ضامر</search>
+
+      <replace>خفيف اللحم</replace>
+ </pair>
+  <pair>
+      <search>ضاوي</search>
+
+      <replace>نحيف دقيق</replace>
+ </pair>
+  <pair>
+      <search>ضحى</search>
+
+      <replace>وقت الشروق</replace>
+ </pair>
+  <pair>
+      <search>ضرام</search>
+
+      <replace>اشتعال</replace>
+ </pair>
+  <pair>
+      <search>ضرغام</search>
+
+      <replace>اسد</replace>
+ </pair>
+  <pair>
+      <search>طارق</search>
+
+      <replace>آتى في الليل</replace>
+ </pair>
+  <pair>
+      <search>طراد</search>
+
+      <replace>رمح قصير</replace>
+ </pair>
+  <pair>
+      <search>طفيل</search>
+
+      <replace>تصغير طفل</replace>
+ </pair>
+  <pair>
+      <search>طلا</search>
+
+      <replace>لذة  خمر</replace>
+ </pair>
+  <pair>
+      <search>طلحة</search>
+
+      <replace>شجر ذو شوك ترعاه الابل</replace>
+ </pair>
+  <pair>
+      <search>ظافر</search>
+
+      <replace>غالب</replace>
+ </pair>
+  <pair>
+      <search>ظاهر</search>
+
+      <replace>بارز</replace>
+ </pair>
+  <pair>
+      <search>ظباء</search>
+
+      <replace>جمع ظبي</replace>
+ </pair>
+  <pair>
+      <search>ظليم</search>
+
+      <replace>ذكر النعامة</replace>
+ </pair>
+  <pair>
+      <search>ظمياء</search>
+
+      <replace>سمراء</replace>
+ </pair>
+  <pair>
+      <search>عابدين</search>
+
+      <replace>جمع عابد</replace>
+ </pair>
+  <pair>
+      <search>عاتكة</search>
+
+      <replace>حمراء  كريمة</replace>
+ </pair>
+  <pair>
+      <search>عارف</search>
+
+      <replace>عالم</replace>
+ </pair>
+  <pair>
+      <search>عاصم</search>
+
+      <replace>مانع</replace>
+ </pair>
+  <pair>
+      <search>عاطف</search>
+
+      <replace>حنون-عَاطِفَة  - الإزار - المُشفِق - الرحيم - واصل البِرّ - الحَسَن الخُلق - السَّادس في سباق الخيل - العنق المنثني - وعَاطِفَة الإحساس - الشعور - الشفقة - القرابة - والرحم </replace>
+ </pair>
+  <pair>
+      <search>عامر</search>
+
+      <replace>ساكن الدار</replace>
+ </pair>
+  <pair>
+      <search>عباس</search>
+
+      <replace>من اسماء الاسد</replace>
+ </pair>
+  <pair>
+      <search>عبلة</search>
+
+      <replace>ضخمة</replace>
+ </pair>
+  <pair>
+      <search>عامر</search>
+
+      <replace>عَامِرَة السَّاكن الباني الآهل المُعمِّر الطيِّب الرائحة الثابت الإيمان القويّه العظيم الذي مرّ عليه زمن طويل وعَامِر وعَامِرَة كنية جرو الضبع وامُّ عَامِركنية الضبع وعَوَامِر البيوتالحيّات واحدتها عَامِر وعَامِرَة واسم لقبيلة عربية من امثال العرب كَمُجِيْر امّ عَامِر وقصته انَّ اعرابياً لجات إلى خيمته ضبعٌ هرباً من بعض الصيادين وكانت جريحة فحماها واطعمها  وبينما هو نائم وثبت عليه وبقرت بطنه  فدخل عليه ابن عمه فوجده على هذه الحال  فلحق بالضبع حتى ادركها وقتلها  وانشد يقولومَنْ يَصْنَعِ المعروفَ مع غيْرِ اهلِهِ يُلاقِ الذي لاقَى مُجيْرُ امِّ عَامرِ</replace>
+ </pair>
+  <pair>
+      <search>عدنان</search>
+
+      <replace>عدنان  المقيم الساكن المستوطن</replace>
+ </pair>
+  <pair>
+      <search>عدوان</search>
+
+      <replace>ظلم</replace>
+ </pair> 
+  <pair>
+      <search>عدوية</search>
+
+      <replace>من نبات الصيف</replace>
+ </pair>
+  <pair>
+      <search>عدي</search>
+
+      <replace>جماعة القوم يعدون لقتال</replace>
+ </pair>
+  <pair>
+      <search>عذوب</search>
+
+      <replace>ليس بينها وبين السماء ستر</replace>
+ </pair> 
+  <pair>
+      <search>عرفان</search>
+
+      <replace>معروف</replace>
+ </pair> 
+  <pair>
+      <search>عروب</search>
+
+      <replace>حسناء تتودد لزوجها</replace>
+ </pair>
+  <pair>
+      <search>عروة</search>
+
+      <replace>رباط يوثق به</replace>
+ </pair> 
+  <pair>
+      <search>عزام</search>
+
+      <replace>جاد في الامر اسد</replace>
+ </pair>
+  <pair>
+      <search>عزة</search>
+
+      <replace>بنت الظبية</replace>
+ </pair>
+  <pair>
+      <search>عساف</search>
+
+      <replace>شديد الظلم</replace>
+ </pair> 
+  <pair>
+      <search>عسام</search>
+
+      <replace>كادح في سبيل عياله</replace>
+ </pair>
+  <pair>
+      <search>عصام</search>
+
+      <replace>حبل تحمل به القربة</replace>
+ </pair>
+  <pair>
+      <search>عطاف</search>
+
+      <replace>رداء على عطفي الرجل</replace>
+ </pair>  
+  <pair>
+      <search>عفراء</search>
+
+      <replace>نوع من الظباء</replace>
+ </pair> 
+  <pair>
+      <search>عقبة</search>
+      <replace>بقية القوم</replace>
+ </pair> 
+  <pair>
+      <search>عكاشة</search>
+
+      <replace>العنكبوت  بيت العنكبوت  ذكر العنكبوت</replace>
+ </pair>  
+  <pair>
+      <search>علقمة</search>
+
+      <replace>شجر مر</replace>
+ </pair> 
+  <pair>
+      <search>علياء</search>
+
+      <replace>قمة الجبل</replace>
+ </pair> 
+  <pair>
+      <search>عليان</search>
+
+      <replace>طويل</replace>
+ </pair> 
+  <pair>
+      <search>عمار</search>
+
+      <replace>ريحان يزين به مجلس الشراب</replace>
+ </pair> 
+  <pair>
+      <search>عناب</search>
+
+      <replace>شجرة ذات شوك</replace>
+ </pair> 
+  <pair>
+      <search>عنان</search>
+
+      <replace>سحاب</replace>
+ </pair> 
+  <pair>
+      <search>عنتر</search>
+
+      <replace>الذباب الازرق</replace>
+ </pair> 
+  <pair>
+      <search>عهد</search>
+
+      <replace>وفاء</replace>
+ </pair>
+  <pair>
+      <search>عواد</search>
+
+      <replace>من يزور المرضى</replace>
+ </pair>
+  <pair>
+      <search>عوام</search>
+
+      <replace>سباح</replace>
+ </pair> 
+  <pair>
+      <search>عوانة</search>
+
+      <replace>نخلة طويلة</replace>
+ </pair> 
+  <pair>
+      <search>عوف</search>
+
+      <replace>اسد</replace>
+ </pair> 
+  <pair>
+      <search>عيسوى</search>
+
+      <replace>نسبة الى عيسى</replace>
+ </pair>
+  <pair>
+      <search>غاده</search>
+      <replace>لينه</replace>
+ </pair> 
+  <pair>
+      <search>غداف</search>
+
+      <replace>شعر طويل اسود</replace>
+ </pair> 
+  <pair>
+      <search>غدير</search>
+
+      <replace>نهر</replace>
+ </pair> 
+  <pair>
+      <search>غسان</search>
+
+      <replace>ميعة الشباب وحدته</replace>
+ </pair>
+  <pair>
+      <search>غطفان</search>
+
+      <replace>كثير الهدب</replace>
+ </pair> 
+  <pair>
+      <search>غلام</search>
+
+      <replace>شاب قد طلع شاربه</replace>
+ </pair>  
+  <pair>
+      <search>غندور</search>
+
+      <replace>الغلام السمين الناعم</replace>
+ </pair>  
+  <pair>
+      <search>غوار</search>
+
+      <replace>الداخل الى غور الاشياء</replace>
+ </pair> 
+  <pair>
+      <search>غياض</search>
+
+      <replace>جمع غيضة وهي الشجر الملتف</replace>
+ </pair> 
+  <pair>
+      <search>هدى</search>
+      <replace>الرُّشد  البيان  الدلالة  الطاعة  التقوى  النهار  الطريق  الحق  والهادي</replace>
+ </pair>
+ 
+  <pair>
+      <search>غيداء</search>
+
+      <replace>ناعمه متثنيه في مشيتها</replace>
+ </pair>
+  <pair>
+      <search>فادي</search>
+
+      <replace>منقذ غيره بفدية</replace>
+ </pair>  
+  <pair>
+      <search>فالح</search>
+
+      <replace>حارث الارض</replace>
+ </pair> 
+  <pair>
+      <search>فرات</search>
+
+      <replace>ماء عذب جدا</replace>
+ </pair> 
+  <pair>
+      <search>فراس</search>
+
+      <replace>مفترس  من اسماء الاسد</replace>
+ </pair> 
+  <pair>
+      <search>فرناس </search>
+
+      <replace>اسد ضار</replace>
+ </pair>
+  <pair>
+      <search>فطين</search>
+
+      <replace>فهيم</replace>
+ </pair> 
+  <pair>
+      <search>فنن</search>
+
+      <replace>غصن</replace>
+ </pair> 
+  <pair>
+      <search>فهر</search>
+
+      <replace>حجر رقيق تسحق به الادويه</replace>
+ </pair> 
+  <pair>
+      <search>فياض</search>
+
+      <replace>كثير العطاء</replace>
+ </pair> 
+  <pair>
+      <search>فيحاء</search>
+
+      <replace>الحديقة الواسعه</replace>
+ </pair>
+  <pair>
+      <search>فيصل</search>
+
+      <replace>سيف قاطع</replace>
+ </pair> 
+  <pair>
+      <search>فيض</search>
+
+      <replace>كثير</replace>
+ </pair>
+  <pair>
+      <search>قابوس</search>
+
+      <replace>جميل الوجه واللون</replace>
+ </pair> 
+  <pair>
+      <search>قبلان</search>
+
+      <replace>قبول ورضي</replace>
+ </pair> 
+  <pair>
+      <search>قتادة</search>
+
+      <replace>شجرة صلبة لها شوك كالابر</replace>
+ </pair>
+  <pair>
+      <search>قتيبة</search>
+
+      <replace>سريع الغضب</replace>
+ </pair> 
+  <pair>
+      <search>قحافه</search>
+
+      <replace>ماجرفه السيل</replace>
+ </pair> 
+  <pair>
+      <search>قحطان</search>
+
+      <replace>عرب الجنوب</replace>
+ </pair> 
+  <pair>
+      <search>قدوس</search>
+
+      <replace>شديد الاقدام</replace>
+ </pair> 
+  <pair>
+      <search>قسيمة</search>
+
+      <replace>ذات وجه حسن</replace>
+ </pair>
+  <pair>
+      <search>قطاف</search>
+
+      <replace>اوان جني الثمر</replace>
+ </pair>  
+  <pair>
+      <search>قيس</search>
+
+      <replace>قاس اي قدر</replace>
+ </pair>
+  <pair>
+      <search>كارم</search>
+
+      <replace>عكس لئيم</replace>
+ </pair>
+  <pair>
+      <search>كاظم</search>
+
+      <replace>من يملك نفسه عند الغضباو الشديد العطش اوالصامت</replace>
+ </pair> 
+  <pair>
+      <search>كاظم</search>
+
+      <replace>كاتم غيظه</replace>
+ </pair> 
+  <pair>
+      <search>كاميليا</search>
+
+      <replace>اسم فرنسى يعنى شجيرة دائمة الخضرة ازهارها وردية او حمراء وتزرع للزينة</replace>
+ </pair>  
+  <pair>
+      <search>كروان</search>
+
+      <replace>طائر لاينام الليل</replace>
+ </pair> 
+  <pair>
+      <search>كعب</search>
+
+      <replace>علا وارتفع</replace>
+ </pair> 
+  <pair>
+      <search>كلثوم</search>
+
+      <replace>حسناء الوجه</replace>
+ </pair> 
+  <pair>
+      <search>كميت</search>
+
+      <replace>من كان لونه بين السواد والحمرة</replace>
+ </pair> 
+  <pair>
+      <search>كناز</search>
+
+      <replace>فتاة كثيرة اللحم</replace>
+ </pair> 
+  <pair>
+      <search>كنعان</search>
+
+      <replace>مائل للغروب</replace>
+ </pair> 
+  <pair>
+      <search>كوثر</search>
+
+      <replace>ماء عذب</replace>
+ </pair>
+  <pair>
+      <search>لؤي</search>
+
+      <replace>تصغير لاي اي بطء</replace>
+ </pair> 
+  <pair>
+      <search>لباب</search>
+
+      <replace>صفوة الشي</replace>
+ </pair>  
+  <pair>
+      <search>لبابه</search>
+
+      <replace>ذات حسب كريم</replace>
+ </pair>  
+  <pair>
+      <search>لبنى</search>
+
+      <replace>شجرة لها لبن كالعسل</replace>
+ </pair>  
+  <pair>
+      <search>لبيد</search>
+
+      <replace>مقيم</replace>
+ </pair>  
+  <pair>
+      <search>لجين</search>
+
+      <replace>فضة</replace>
+ </pair> 
+  <pair>
+      <search>لحظه</search>
+
+      <replace>لمحة سريعه</replace>
+ </pair> 
+  <pair>
+      <search>لمى</search>
+
+      <replace>اسمرار الشفة</replace>
+ </pair> 
+  <pair>
+      <search>لميس</search>
+
+      <replace>لينة اللمس</replace>
+ </pair> 
+  <pair>
+      <search>ليث</search>
+
+      <replace>اسد</replace>
+ </pair> 
+  <pair>
+      <search>مايز</search>
+
+      <replace>مفضل على غيره</replace>
+ </pair> 
+  <pair>
+      <search>لمياء</search>
+
+      <replace>اسمرار الشفه</replace>
+ </pair> 
+  <pair>
+      <search>ليلى</search>
+
+      <replace>نشوة الخمر</replace>
+ </pair>
+  <pair>
+      <search>ماريّة</search>
+
+      <replace>المراة البيضاء المكتنزة الناعمة او البقرة الوحشية ذات الولد الابيض اللون او طائر بحجم الحمام</replace>
+ </pair>  
+  <pair>
+      <search>مازن</search>
+
+      <replace>مسرع في طلب الحاجه</replace>
+ </pair>  
+  <pair>
+      <search>ماوية</search>
+
+      <replace>نسبة للماء لصفائه</replace>
+ </pair>
+  <pair>
+      <search>مايسة</search>
+
+      <replace>تخفيف مائسة اى المتمايلة المتبخترة</replace>
+ </pair> 
+  <pair>
+      <search>مجالد</search>
+
+      <replace>صبور</replace>
+ </pair>  
+  <pair>
+      <search>مخزوم</search>
+
+      <replace>منظوم كاللالىء</replace>
+ </pair> 
+  <pair>
+      <search>مدثر</search>
+
+      <replace>متلفع بالدثار</replace>
+ </pair> 
+  <pair>
+      <search>مدلج</search>
+
+      <replace>سائر في الليل</replace>
+ </pair> 
+  <pair>
+      <search>مران</search>
+
+      <replace>رمح صلب لينه</replace>
+ </pair> 
+  <pair>
+      <search>مرثد</search>
+
+      <replace>رجل كريم</replace>
+ </pair> 
+  <pair>
+      <search>مرحب</search>
+
+      <replace>واسع</replace>
+ </pair> 
+  <pair>
+      <search>مرحى </search>
+
+      <replace>الترحيب</replace>
+ </pair> 
+  <pair>
+      <search>مرسي</search>
+
+      <replace>مثبت</replace>
+ </pair>
+  <pair>
+      <search>مرعي</search>
+
+      <replace>محروس</replace>
+ </pair>  
+  <pair>
+      <search>مرهج</search>
+
+      <replace>مثير الغبار يوم المعركة</replace>
+ </pair> 
+  <pair>
+      <search>مروان</search>
+
+      <replace>مثنى مرو وهو الحجر الابيض الرقيق</replace>
+ </pair> 
+  <pair>
+      <search>مروة</search>
+
+      <replace>اصلها مرؤة اي نخوة</replace>
+ </pair> 
+  <pair>
+      <search>مزنة</search>
+
+      <replace>سحابة بيضاء</replace>
+ </pair> 
+  <pair>
+      <search>مشعل</search>
+
+      <replace>سراج</replace>
+ </pair> 
+  <pair>
+      <search>مصطفى</search>
+
+      <replace>مختار</replace>
+ </pair> 
+  <pair>
+      <search>مضر</search>
+
+      <replace>مولع بشرب اللبن الحامض</replace>
+ </pair> 
+  <pair>
+      <search>مطلق</search>
+
+      <replace>حر</replace>
+ </pair> 
+  <pair>
+      <search>معاذ</search>
+
+      <replace>ملاذ</replace>
+ </pair> 
+  <pair>
+      <search>معن</search>
+
+      <replace>جري الماء جري سهلا</replace>
+ </pair> 
+  <pair>
+      <search>مقداد</search>
+
+      <replace>شديد القطع</replace>
+ </pair>
+  <pair>
+      <search>مكي</search>
+
+      <replace>نسبة الى مكه</replace>
+ </pair> 
+  <pair>
+      <search>مناف</search>
+
+      <replace>عالية</replace>
+ </pair>  
+  <pair>
+      <search>منيف</search>
+
+      <replace>مرتفع</replace>
+ </pair> 
+  <pair>
+      <search>مها</search>
+
+      <replace>بقرة وحشية</replace>
+ </pair> 
+  <pair>
+      <search>مهجة</search>
+
+      <replace>روح  قلب</replace>
+ </pair>
+  <pair>
+      <search>مهران</search>
+
+      <replace>قائد فارسي</replace>
+ </pair> 
+  <pair>
+      <search>مُهْره</search>
+
+      <replace>ابنة الحصان ثمر الحنظل  نوع من فراخ الحمام</replace>
+ </pair> 
+  <pair>
+      <search>مهند</search>
+
+      <replace>سيف سقيل من صناعة الهند</replace>
+ </pair>   
+  <pair>
+      <search>مي</search>
+
+      <replace>انثى القرد</replace>
+ </pair> 
+  <pair>
+      <search>ميثاء</search>
+
+      <replace>لينه</replace>
+ </pair> 
+  <pair>
+      <search>نارمان</search>
+
+      <replace>اسم مركب بمعنى مثل الرمان</replace>
+ </pair> 
+  <pair>
+      <search>ناريمان</search>
+
+      <replace>اسم فارسى يعنى جميلة القوام</replace>
+ </pair>  
+  <pair>
+      <search>نازك</search>
+
+      <replace>الرمح القصير</replace>
+ </pair> 
+  <pair>
+      <search>ناصيف</search>
+
+      <replace>نصف الشي</replace>
+ </pair> 
+  <pair>
+      <search>ناهض</search>
+
+      <replace>قائم من مكانه</replace>
+ </pair> 
+  <pair>
+      <search>ناهل</search>
+
+      <replace>شارب اول الشرب</replace>
+ </pair> 
+  <pair>
+      <search>نايف</search>
+
+      <replace>مرتفع</replace>
+ </pair> 
+  <pair>
+      <search>نجلاء</search>
+
+      <replace>ذات عينين واسعتين</replace>
+ </pair> 
+  <pair>
+      <search>نجود</search>
+
+      <replace>جمع نجد وهو المرتفع</replace>
+ </pair> 
+  <pair>
+      <search>نرجس</search>
+
+      <replace>زهر معروف</replace>
+ </pair> 
+  <pair>
+      <search>نزار</search>
+
+      <replace>قليل  نادر</replace>
+ </pair> 
+  <pair>
+      <search>نسرين</search>
+
+      <replace>ورد ابيض قوي الرائحه</replace>
+ </pair> 
+  <pair>
+      <search>نشات</search>
+
+      <replace>شباب</replace>
+ </pair>  
+  <pair>
+      <search>نهلى</search>
+
+      <replace>جمع نهلان اي غير عطشان</replace>
+ </pair>  
+  <pair>
+      <search>نهى</search>
+
+      <replace>عقل</replace>
+ </pair> 
+  <pair>
+      <search>نوار</search>
+
+      <replace>امراة تنفر من الريبة</replace>
+ </pair> 
+  <pair>
+      <search>نوال</search>
+
+      <replace>عطاء</replace>
+ </pair> 
+  <pair>
+      <search>نوف</search>
+
+      <replace>الارتفاع</replace>
+ </pair> 
+  <pair>
+      <search>نوفل</search>
+
+      <replace>بحر</replace>
+ </pair>
+  <pair>
+      <search>تركي</search>
+
+      <replace>تُرْكِيَّة نسبة إلى الترك  وهم جيل معروف من التتر</replace>
+ </pair>
+ 
+  <pair>
+      <search>هاشم</search>
+
+      <replace>كاسر</replace>
+ </pair> 
+  <pair>
+      <search>هتون</search>
+
+      <replace>انصباب المطر</replace>
+ </pair> 
+  <pair>
+      <search>هدير</search>
+
+      <replace>صوت الرعد</replace>
+ </pair> 
+  <pair>
+      <search>هشام</search>
+
+      <replace>كرم</replace>
+ </pair>
+  <pair>
+      <search>هماس</search>
+
+      <replace>متكلم في السر</replace>
+ </pair> 
+  <pair>
+      <search>هند</search>
+
+      <replace>مئة من الابل</replace>
+ </pair>  
+  <pair>
+      <search>هنيدى</search>
+
+      <replace>تصغير هندى  او السيف المصنوع فى الهند  او حديد الهند</replace>
+ </pair>   
+  <pair>
+      <search>هياب</search>
+
+      <replace>مفزع</replace>
+ </pair>
+  <pair>
+      <search>هيام</search>
+
+      <replace>عطش شديد</replace>
+ </pair> 
+  <pair>
+      <search>هيثم</search>
+
+      <replace>الصقر او ابن النسر او العقاب او الاسد او الرملة الحمراء او نوع من الشجر</replace>
+ </pair>  
+  <pair>
+      <search>هيثم</search>
+
+      <replace>صقر</replace>
+ </pair>  <pair>
+      <search>هيفاء</search>
+
+      <replace>ضامرة البطن</replace>
+ </pair> 
+  <pair>
+      <search>هيكل</search>
+
+      <replace>ضخم</replace>
+ </pair>
+  <pair>
+      <search>وائل</search>
+
+      <replace>طالب النجاة</replace>
+ </pair> 
+  <pair>
+      <search>احمد</search>
+
+      <replace>الاكثر حمداً  المحمود  واوّل من سُمِّي به النبي محمد صلى عليه وسلم حيث ورد في القرآن الكريم بلسان النبي عيسىع وَمُبَشِّراً بِرَسُولٍ يَاْتِي مِنْ بَعْدِي اسْمُهُ اَحْمَدُ احمد بن ابي اُصيبعةولد في دمشق وله الكتاب المعروف باسم عيون الانباء في طبقات الاطباء الذي يعتبر من اهم المراجع في تاريخ الطب عند العرب  حيث تضمَّن دراسة مفصلة لما يزيد عن خمسمائة طبيب  منهم اربعمائة طبيب عربي  ذاكراً اخبارهم العلمية وشعرهم ونوادرهم وتفاصيل عن شخصياتهم  وهو من امتع واصدق ما كُتب عن الاطباء العرب</replace>
+ </pair>
+ 
+  <pair>
+      <search>واكد</search>
+
+      <replace>قاصد</replace>
+ </pair>
+  <pair>
+      <search>وداد</search>
+
+      <replace>حب</replace>
+ </pair> 
+  <pair>
+      <search>وديد</search>
+
+      <replace>محب</replace>
+ </pair> 
+  <pair>
+      <search>وسن</search>
+
+      <replace>نعاس</replace>
+ </pair> 
+  <pair>
+      <search>وسيل</search>
+
+      <replace>مايتقرب به الى الله</replace>
+ </pair>  
+  <pair>
+      <search>وقاص</search>
+
+      <replace>كاسر العنق</replace>
+ </pair>
+  <pair>
+      <search>وهاج</search>
+
+      <replace>شديد الوهج</replace>
+ </pair>
+  <pair>
+      <search>وهاد</search>
+
+      <replace>المكان المنخفض</replace>
+ </pair>  
+  <pair>
+      <search>وهب</search>
+
+      <replace>اعطاء دون ثمن</replace>
+ </pair>  
+  <pair>
+      <search>يامن</search>
+
+      <replace>مبارك</replace>
+ </pair>  
+  <pair>
+      <search>يانع</search>
+
+      <replace>ثمر طيب</replace>
+ </pair> 
+  <pair>
+      <search>يحيى</search>
+
+      <replace>يعيش</replace>
+ </pair>  
+  <pair>
+      <search>يمام</search>
+
+      <replace>حمام بري</replace>
+ </pair>  
+  <pair>
+      <search>يمان</search>
+
+      <replace>نسبة الى اليمن</replace>
+ </pair>  
+  <pair>
+      <search>يمن</search>
+
+      <replace>بركة</replace>
+ </pair>  
+  <pair>
+      <search>يمنى</search>
+
+      <replace>مباركة</replace>
+ </pair>
+  <pair>
+      <search>محمد</search>
+
+      <replace>الكثير الخصال الحميدة  والمحمود جداً الرسول العربي محمد بن عبد الله صلى الله عليه وسلم من بني هاشم ولد في مكّة بعد وفاة ابيه وتوفيت امّه آمنة ولم يتجاوز السادسة من العمر فكفله جدّه عبد المطلب ثمَّ عمّه ابو طالب وفي الخامسة والعشرين من عمره تزوَّج خديجة بنت خويلد وفي سن الاربعين اصطفاه الله وبدا الوحي بالهبوط عليه فدعا الناس في مكّة إلى الإسلام لكنَّهم قابلوه بالاضطهاد فهاجر إلى المدينة يثرب حيث اجتمع الانصار من حوله  فاصبحت هذه السنة بدء التاريخ الإسلامي او الهجري انتصر على المشركين في موقعة بدر في السنة الثانية للهجرة وهُزِم المسلمون في اُحد في السنة الثالثة غير انَّهم عادوا وانتصروا عليهم في معركة الخندق في السنة الخامسة وكان انتصارهم الحاسم يوم فتح مكّة فدخلها الرسول ظافراً في السنة الثامنة وعفا عن خصومه القدماء قائلاًاذهبوا فانتم الطلقاء ولحق بالرفيق الاعلى بعد ان حجَّ حجّة الوداع في السنة الحادية عشرة</replace>
+ </pair>
+  <pair>
+      <search>سدى</search>
+
+      <replace>الندى - الشَّهد - البلح - الخير والمعروف - وخيوط القماش الطويلة </replace>
+ </pair>
+  <pair>
+      <search>زيد</search>
+
+      <replace> زَيْدَة  : النماء والزيادة والكثرة .زيد بن علي بن الحُسين ( ت. 740م) : من اعلام بني هاشم يُعرف باسم "زيد الشهيد"- اعلن الثورة هلى الخليفة الاموي هشام بن عبد الملك وقتل في إحدى المعارك- إليه ينسب المذهب الزيدي واكثر سكان اليمن من اتباعه *(17). </replace>
+ </pair>
+  <pair>
+      <search>طارق</search>
+
+      <replace> طَارِقَة  : كوكب الصبح- من ياتي ليلاً- الحادثة- والطَّارِقَة: العشيرة- السرير الصغير- المنجّمة- والداهية. طارق بن زياد : القائد الذي فتح الاندلس تحت قيادة موسى بن نُصير سنة 711 م- انتصر على رودريك ملك القوط في معركة وادي بكّة وقتله- ثمّ فتح قرطبة وطليطلة وإشبيلية ومالقة وكثير من بلدان الاندلس- وعاد مع موسى إلى سوريا فدخلا دمشق في موكب حافل بالاسرى والغنائم في عهد الوليد بن عبد الملك سنة 715 م- واُطلق اسمه على المضيق الذي يفصل اوروبا عن إفريقيا "عرضه 14كلم وطوله 50 كلم " *(1).</replace>
+ </pair>
+  <pair>
+      <search>حمدي</search>
+
+      <replace>منسوب إلى الحَمْد .من اقوال العرب : مَن اشْتَرَى الحَمْدَ لم يُغْبَنْ </replace>
+ </pair>
+  <pair>
+      <search>حمدى</search>
+
+      <replace>منسوب إلى الحَمْد .من اقوال العرب : مَن اشْتَرَى الحَمْدَ لم يُغْبَنْ </replace>
+ </pair>
+  <pair>
+      <search>حميد</search>
+
+      <replace>المحمود السيرة - والحامد </replace>
+ </pair>
+  <pair>
+      <search>رمزي</search>
+
+      <replace>المنسوب إلى الرَّمز: الإيماء- الهمس- التحرك- شعار الدول- الدلالة والإشارة. والمنتسب إلى مذهب الرَّمزيّة : وهو مذهب يعتمد الجَرْس في الموسيقى والرَّمز في الكلام - لكي يوحي إلى القرّاء باحاسيس النّفس الخفيّة</replace>
+ </pair>
+  <pair>
+      <search>رمزى</search>
+
+      <replace>المنسوب إلى الرَّمز: الإيماء- الهمس- التحرك- شعار الدول- الدلالة والإشارة. والمنتسب إلى مذهب الرَّمزيّة : وهو مذهب يعتمد الجَرْس في الموسيقى والرَّمز في الكلام - لكي يوحي إلى القرّاء باحاسيس النّفس الخفيّة</replace>
+ </pair>
+  <pair>
+      <search>مراد</search>
+
+      <replace>القصد والطلب - الكثير التمرّد - المرغوب فيه - واليوم الذي يُراد ان يحشر فيه الخلق </replace>
+ </pair>
+  <pair>
+      <search>مراد</search>
+
+      <replace>القصد والطلب - الكثير التمرّد - المرغوب فيه - واليوم الذي يُراد ان يحشر فيه الخلق </replace>
+ </pair>
+  <pair>
+      <search>اسماعيل</search>
+
+      <replace>ابن النبي ابراهيم الخليل "ع" من هاجر المصرية- بعدما تركه ابوه في مكّة المكرمة جاور قبيلة جُرْهُم- فتعلّم اللغة العربية وتزوج امراة منهم ولدت له اثني عشر ولداً- ويطلق المؤرخون تسمية العرب المستعربة"العدنانيون" "عرب الشمال" على النبي إسماعيل"ع" ونسله  </replace>
+ </pair>
+  <pair>
+      <search>عمرو</search>
+
+      <replace>اسم علم تلحق به الواو رفعاً وجراً للتفريق عن عُمَر - وام عَمْرو : الضبع . عمرو بن كلثوم (ت. 600م ) : من زعماء تغلب وشاعر جاهلي من اصحاب المعلقات- كان كثير الاعتزاز بنفسه وبقومه - وشعره متين السَّبك قوي العاطفة يعتبر مرجعاً تاريخياً اجتماعياً - له معلّقة مطلعها : اَلا هُبِّي بِصَحْنِكِ فاصْبَحِينا ولا تُبْقي خُمُورَ الانْدَرِينا الصحن : القدح الكبير - اصبحينا : اسقينا الصَّبوح- الاندرين : قرية جنوبي  </replace>
+ </pair>
+  <pair>
+      <search>عمر</search>
+
+      <replace>جمع عُمْرَة : قصد المكان العامر - والحجّ الاصغر . عُمَر بن الخطاب"ض" ( ت. 644م ) : ثاني الخلفاء الراشدين اشتهر بعدله - في ايامه فتحت الجيوش الإسلامية بلاداً واسعة - وهو اوَّل من سُمِّي بامير المؤمنين - وارَّخ التاريخ - ودوَّن الدواوين - ومصَّر الامصار- واغتاله ابو لؤلؤة المجوسي  </replace>
+ </pair>
+  <pair>
+      <search>فاتن</search>
+
+      <replace>كل ما يبهر الآخرين ويفتنهم - الذي يقع بالإعجاب والوله والاستمالة - الفائقة الجَمَال - المُضلّ عن الحق - الشيطان - واللصّ  </replace>
+ </pair>
+  <pair>
+      <search>لمياء</search>
+
+      <replace>الفتاة ذات السُّمرة المُستحبة في الشفتين واللثة - الشفاه اللطيفة الرقيقة - الرماح السُّمر الصَّلبة - والاشجار الكثيفة الظل  </replace>
+ </pair>
+  <pair>
+      <search>جهاد</search>
+
+      <replace>المبالغة في بذل الطاقة والمشقة والدم والمال واللسان من اجل قضية سامية - والقتال والمحاماة عن الدين والعرض - القتال في سبيل الله - والتعب والكدّ . اللهم انصر جهاد الفلسطينين في فلسطين امين يا رب العالمين</replace>
+ </pair>
+  <pair>
+      <search>نجوى</search>
+
+      <replace>المناجاة - والإفاضة بما في النفس والقلب من العواطف والاسرار. قال خليل مطران *(7): شاكٍ إلى البحرِ اضطرابَ خواطري فيُجيبُني برياحِهِ الهَوجاءِ  </replace>
+ </pair>
+  <pair>
+      <search>ايمن</search>
+
+      <replace> الميمون - المبارك - مَنْ يعمل بيمناه - والعرب كانت تتفاءل بجهة اليمين وتمثّل عندهم القوة والقدرة والمنزلة </replace>
+ </pair>
+  <pair>
+      <search>قصي</search>
+
+      <replace>تصغير قَصِيّ - او قَصَا : البعيد التفكير - والذي يبلغ غايته . قُصَيّ بن كلاب: الجد الرابع لرسول الله"ص" وسيِّد قريش في عصره - جمع قومه في مكّة وجعل داره داراً للندوة يجتمع فيها القوم- وكانت له سَدَانة الكعبة  </replace>
+ </pair>
+  <pair>
+      <search>باقر</search>
+
+      <replace> المتوغل في العلم والمتبحر فيه - لقب الإمام الخامس عند الإمامية من المسلمين .يقول الإمام الشافعي في تحصيل العلم*(3):اخي لَنْ تَنالَ العِلْمَ إلاَّ بسِتَّةٍ ساُنْبيكَ عَنْ تفصيلِها بِبَيانِ ذكاءٌ- وحِرْصٌ- واجتهادٌ- وبُلْغَةٌ وصُحْبَةُ استاذٍ- وطُول زَمانِ </replace>
+ </pair>
+  <pair>
+      <search>محمود</search>
+
+      <replace> مَحْمُودَة - ذو الصفات الحميدة - المشكور - الممدوح - المَرضي عنه - واسم للفيل المذكور في القرآن الكريم الذي تقدَّم جيش ابرهة لاحتلال مكة المكرمة . </replace>
+ </pair>
+
+  <pair>
+      <search>سالم</search>
+
+      <replace> ( سَالِمَة - الصالح - البريء من العيوب الخَلقية والخُلقية - البريء من الكفر والإلحاد - جلد ما بين العينين والانف - والباقي الدائم الذي لا يفنى .</replace>
+ </pair>
+  <pair>
+      <search>نجوان</search>
+
+      <replace> الناجي - الخالص - والذي يفيض بما في قلبه من عواطف واسرار .</replace>
+ </pair>
+  <pair>
+      <search>فتحى</search>
+
+      <replace> ( فَتْحِيَّة-المنسوب إلى الفتْح وهو : النَّصر - اول المطر - الرزق - النهر - الماء الجاري - ويوم الفتْح : يوم القيامة .</replace>
+ </pair>
+  <pair>
+      <search>فتحي</search>
+
+      <replace> ( فَتْحِيَّة - المنسوب إلى الفتْح وهو : النَّصر - اول المطر - الرزق - النهر - الماء الجاري - ويوم الفتْح : يوم القيامة .</replace>
+ </pair>
+  <pair>
+      <search>مالك</search>
+
+      <replace> ( مَالِكَة - صاحب المُلك - الرسالة - الذي يحبس نفسه عن رغباتها - الحائز - المنفرد بالتصرف - وابو مَالِك : كنية النسر والجوع والكِبَر . مالك بن انس "ض"( ت. 795م) : مؤسس المذهب المالكي - ولد وتوفي في المدينة - له : "الموطا" الذي هو اساس المذهب - الرد على القدرية - المدونة الكبرى - ولمذهبه مكانة كبرى في المغرب العربي</replace>
+ </pair>
+  <pair>
+      <search>صالح</search>
+
+      <replace> صَالِحَة - خلاف الفاسد- المؤدّي لحقوقه وواجباته تجاه نفسه وقومه- الجدير- المؤهل- الخَليق- وصَالِحَة: مؤنث صَالِح- والنعمة الوافرة. وصالح "ع": نبي عربي بعثه الله عزَّ وجلّ إلى قبيلة ثمود العربية ليدعوهم إلى الله- وقصته واردة في القرآن الكريم. </replace>
+ </pair>
+  <pair>
+      <search>شامي</search>
+
+      <replace>شَامِيَّة - المنسوب إلى بلاد الشام .الشام: كانت تضم دول سوريا ولبنان والاردن وفلسطين قبل تقسيم الوطن العربي بموجب معاهدة سايكس بيكو من قبل الاستعمارين الفرنسي والبريطاني. </replace>
+ </pair>
+  <pair>
+      <search>شامخ</search>
+
+      <replace> العالي - النسب الشريف - والرافع انفه كِبَراً وتيهاً وعزّاً </replace>
+ </pair>
+  <pair>
+      <search>سامي</search>
+
+      <replace> سَامِيَة - ذو العلاء والرفعة والنسب الشريف - والصيَّاد  </replace>
+ </pair>
+  <pair>
+      <search>سالي</search>
+
+      <replace> سَالِيَة - الناسي والمتناسي لهمومه - والذي يشغل نفسه بامور اللهو  </replace>
+ </pair>
+  <pair>
+      <search>سالى</search>
+
+      <replace> سَالِيَة - الناسي والمتناسي لهمومه - والذي يشغل نفسه بامور اللهو  </replace>
+ </pair>
+  <pair>
+      <search>ياسر</search>
+
+      <replace> ( يَاسِرَة - عكس اليامن - السَّهل الليِّن - الغني الواسع - الجزَّار - ولاعب القمار .</replace>
+ </pair>
+  <pair>
+      <search>جاسر</search>
+
+      <replace> جَاسِرَة : المقدام - الشجاع - الماضي - والطويل  </replace>
+ </pair>
+  <pair>
+      <search>هانى</search>
+
+      <replace> تخفيف هَانِئ : الذي يعيش بفرح وسعادة وطمأنينة ، المُحسِن ، الخادم ، واللذيذ   </replace>
+ </pair>
+  <pair>
+      <search>اسماء</search>
+
+      <replace> جمع اسم  </replace>
+ </pair>
+  <pair>
+      <search>اسلام</search>
+
+      <replace>  الانقياد والطاعة ، حلول السلم ، الدخول في الدين الذي بشَّر به الرسول العربي محمّد بن عبد الله "ص"وهو : إخلاص الدين والعقيدة لله تعالى ، وكتابه المقدَّس القرآن الكريم ، وأهم أعياده الأضحى والفطر ، والإسلام باللسان بينما الإيمان في القلب </replace>
+ </pair>
+  <pair>
+      <search> راكان</search>
+
+      <replace>  ركان مأخوذة من ( رَكَانَة ) :كثير الرزانة والوقار </replace>
+ </pair>
+  <pair>
+      <search>طلال</search>
+
+      <replace>  طِلال : جمع طَلّ وهو : الندى ، المطر الخفيف ، الحَسَن الجميل ، الحليب ، الموقع المرتفع البارز ، المعجب ، والحيّة ، وطَلالَة : الهيئة الجميلة ، الحالة الحسنة ، الجَمَال ، البهجة والسرور ، الشَّخص أو الشَّاخص من كل شيء  </replace>
+ </pair>
+  <pair>
+      <search>صابر</search>
+
+      <replace>  ذو الجَلَد والعزم في مقارعة الصِّعاب والرَّزايا ، الحابِس ، والمُكرِه ، وأبو صَابِر : الملح . من أقوال الإمام علي"ع": الصَّبْرُ صَبْرَانِ : صَبْرٌ عَلى مَا تَكْرَهُ وصَبْرٌ عَمَّا تُحِبُّ </replace>
+ </pair>
+  <pair>
+      <search>سعدي</search>
+
+      <replace>  صاحبة السَّعد واليُمن  </replace>
+ </pair>
+  <pair>
+      <search>سعيد</search>
+
+      <replace>  سعيد </replace>
+ </pair>
+  <pair>
+      <search>سعدى</search>
+
+      <replace>  صاحبة السَّعد واليُمن  </replace>
+ </pair>
+  <pair>
+      <search>صبري</search>
+
+      <replace>  المنسوب إلى الصَّبْر : احتمال الرَّزايا بجَلَدٍ وجُرأة ، الحبس ، الإكراه ، الجرأة ، حبس النفس عن الجزع ، أخذ يمين الإنسان ، وشهر الصَّبر : شهر رمضان . من أقوال العرب : الصبر حيلة من لا حيلة له </replace>
+ </pair>
+  <pair>
+      <search>صبرى</search>
+
+      <replace> المنسوب إلى الصَّبْر : احتمال الرَّزايا بجَلَدٍ وجُرأة ، الحبس ، الإكراه ، الجرأة ، حبس النفس عن الجزع ، أخذ يمين الإنسان ، وشهر الصَّبر : شهر رمضان . من أقوال العرب : الصبر حيلة من لا حيلة له  </replace>
+ </pair>
+  <pair>
+      <search>سميرة</search>
+
+      <replace>   السَّامر في سهرة السَّمر ، والدَّهر .ابن سَمِيْر : الليل الذي لا قمر فيه ، وابنا سَمِيْر : الليل والنهار </replace>
+ </pair>
+  <pair>
+      <search>مراد</search>
+
+      <replace> القصد والطلب ، الكثير التمرّد ، المرغوب فيه ، واليوم الذي يُراد أن يحشر فيه الخلق  </replace>
+ </pair>
+  <pair>
+      <search>بهائي</search>
+
+      <replace> نسبة إلى بَهَاء، وإلى البهائية.والبهائية فرقة أسسها بهاء الله 1862، تنادي بوحدة الأديان وبالإخاء بين البشر  </replace>
+ </pair>
+  <pair>
+      <search>بهائى</search>
+
+      <replace> نسبة إلى بَهَاء، وإلى البهائية.والبهائية فرقة أسسها بهاء الله 1862، تنادي بوحدة الأديان وبالإخاء بين البشر  </replace>
+ </pair>
+  <pair>
+      <search>تهاني</search>
+
+      <replace> جمع تَهْنِئَة : إبلاغ الفرح والسرور ، خلاف التعزية   </replace>
+ </pair>
+  <pair>
+      <search>تهانى</search>
+
+      <replace>  جمع تَهْنِئَة : إبلاغ الفرح والسرور ، خلاف التعزية  </replace>
+ </pair>
+  <pair>
+      <search>ندى</search>
+
+      <replace> الطَّل ، المطر ، الجود ، المعروف ، الخير ، الضباب ، الثرى ، البَلَل ، المدى ، المُجالسة ، شيء يُتطيَّب به كالبخور ، بُعد الصوت ، الدهن ، والنبات  </replace>
+ </pair>
+  <pair>
+      <search>ناجية</search>
+
+      <replace>  المتخلِّص من الشرِّ أو الخطر أو العيب ، النامي ، السريع السير . ونَاجِيَة : مؤنث ناجي ، والناقة السريعة . </replace>
+ </pair>
+  <pair>
+      <search>ناجدة</search>
+
+      <replace>  الشجاع الشديد البأس ، السريع الإجابة لما يُدعى إليه ، المُعين ، الناهض للقتال ، الأمر الواضح ، والمرتفع . </replace>
+ </pair>
+  <pair>
+      <search>ناديه</search>
+
+      <replace>  الكريمة الكثيرة السخاء، النديَّة، المُبتلَّة، النخل البعيد عن الماء، أوائل الأشياء، والناحية. </replace>
+ </pair>
+  <pair>
+      <search>نادية</search>
+
+      <replace> الكريمة الكثيرة السخاء، النديَّة، المُبتلَّة، النخل البعيد عن الماء، أوائل الأشياء، والناحية.  </replace>
+ </pair>
+  <pair>
+      <search>وجد</search>
+
+      <replace> الحُبُّ الشديد ، القدرة ، القوَّة ، اليَسَار ، السِّعة ، الغنى ، المُلك ، الحزن الشَّديد ، الغضب ، والعثور على الضَّالة   </replace>
+ </pair>
+  <pair>
+      <search>وجد</search>
+
+      <replace> الحُبُّ الشديد ، القدرة ، القوَّة ، اليَسَار ، السِّعة ، الغنى ، المُلك ، الحزن الشَّديد ، الغضب ، والعثور على الضَّالة   </replace>
+ </pair>
+  <pair>
+      <search>نجد</search>
+
+      <replace> الرجل الشجاع المُتميِّز، السريع الإجابة لما يُدعى إليه، الدليل الماهر، الطريق المرتفع الواضح، الثدي، الضابط للأمور والمذلّل للصعاب، ما تُفرش به البيوت من بسط ووسائد وما يُزينها من ستائر وغيرها، الجبل القليل الارتفاع، الكرب والهم، المكان الذي لا شجر فيه، والنَّجْدَان: طريق الخير وطريق الشر، أو الثديان . ونَجْد : أكبر الأقاليم في شبه الجزيرة العربية ترنَّم الشعراء برباها ورياضها   </replace>
+ </pair>
+  <pair>
+      <search>سمر</search>
+
+      <replace> حديث الليل ، سواد الليل ، المُسامرة ، الدَّهر ، وظل القمر .   </replace>
+ </pair>
+  <pair>
+      <search>شمر</search>
+
+      <replace>  الماضي الجادُّ في أمره ، البصير ، المُجرِّب ، والكثير السَّخاء . </replace>
+ </pair>
+  <pair>
+      <search>مي</search>
+
+      <replace>  أنثى القرد ، والخادمة المملوكة . ميّ زيادة (ت. 1941م) : كاتبة لبنانية عاشت في مصر واسمها ماري إلياس زيادة ، وكانت تتقن 9 لغات ، عُرفت بأدبها الوجداني المتميز بالرقَّة والشَّفافية ، وبصالونها الأدبي الذي كان يضمّ إليه كل ثلاثاء نخبة من كبار الأدباء والمفكرين في القاهرة ، ومن آثارها : سوانح فتاة ، وباحثة البادية  </replace>
+ </pair>
+  <pair>
+      <search>مى</search>
+
+      <replace> أنثى القرد ، والخادمة المملوكة . ميّ زيادة (ت. 1941م) : كاتبة لبنانية عاشت في مصر واسمها ماري إلياس زيادة ، وكانت تتقن 9 لغات ، عُرفت بأدبها الوجداني المتميز بالرقَّة والشَّفافية ، وبصالونها الأدبي الذي كان يضمّ إليه كل ثلاثاء نخبة من كبار الأدباء والمفكرين في القاهرة ، ومن آثارها : سوانح فتاة ، وباحثة البادية   </replace>
+ </pair>
+  <pair>
+      <search>روز</search>
+
+      <replace> اسم فرنسي : الوَرْدَة ، واللون الوردي .  </replace>
+ </pair>
+  <pair>
+      <search>وسام</search>
+
+      <replace>  العلامة التي يوسم بها ، ونيشان يُعطى لمن امتاز بأفعاله وحُسن خدمته يُعلَّق إلى الصدر ، وجمع وسِيْم : الثابت الحُسن ، الحَسَن الوجه والطلّة ، والموسوم .  </replace>
+ </pair>
+  <pair>
+      <search>وصال</search>
+
+      <replace>  الحبيبين وتبادل الحُبّ بينهما ، المداومة والمواظبة دون انقطاع ، والالتئام .  </replace>
+ </pair>
+  <pair>
+      <search>نزال</search>
+
+      <replace> الكثير المقابلة والمقاتلة في الحرب، القوي، الشجاع  </replace>
+ </pair>
+  <pair>
+      <search>ريم</search>
+
+      <replace> الغزال الناصع البياض   </replace>
+ </pair>
+  <pair>
+      <search>ميادة</search>
+
+      <replace>   الكثير التمايل والاهتزاز والتثنّي ، المُتبختر ، الذي يصاب بالاضطراب والدُّوار من ركوب البحر أو من السُّكْر أو من غيرهما ، والغصن المتمايل  </replace>
+ </pair>
+  <pair>
+      <search>مياده</search>
+
+      <replace>  الكثير التمايل والاهتزاز والتثنّي ، المُتبختر ، الذي يصاب بالاضطراب والدُّوار من ركوب البحر أو من السُّكْر أو من غيرهما ، والغصن المتمايل  </replace>
+ </pair>
+  <pair>
+      <search>سعد</search>
+
+      <replace>  خلاف البؤس ، اليُمن والبركة ، الراحة والغبطة ، اسم لقبائل عربية عديدة ، واسم لصنم كانت تعبده هذيل في الجاهلية .سعد بن أبي وقاص ( ت. 675م ) : صحابي قرشي بنى مدينة الكوفة ، وفتح العراق ومدائن كسرى بمعركة القادسية سنة 635م. عندما هزم رستم بن هرمز وقتله </replace>
+ </pair>
+  <pair>
+      <search>اكرم</search>
+
+      <replace> الأكثر سخاءً وجوداً ، الذي يأتي بأولاد كرام ، والمكرِّم نفسه عن المعاصي .  </replace>
+ </pair>
+  <pair>
+      <search>مكرم</search>
+
+      <replace> النّزيه الجامع لكل ما يُحمد من الخير والفضائل والشرف، الأرض الطيبة الخصبة، ومَكْرُمَة: المأثرة، والفعل الكريم.   </replace>
+ </pair>
+  <pair>
+      <search>نهى</search>
+
+      <replace>  غاية الشيء وآخره، والعقول: لأنَّها تنهى عن فعل القبيح. من أقوال العرب : نِصفُ العقلِ مُداراةُ الناسِ، وكُلُّ العقلِ مُداراةُ السُّفهاءِ </replace>
+ </pair>
+  <pair>
+      <search>نهي</search>
+
+      <replace>  غاية الشيء وآخره، والعقول: لأنَّها تنهى عن فعل القبيح. من أقوال العرب : نِصفُ العقلِ مُداراةُ الناسِ، وكُلُّ العقلِ مُداراةُ السُّفهاءِ </replace>
+ </pair>
+  <pair>
+      <search>حياة</search>
+
+      <replace>  نقيض الممات، بقاء العيش، المنفعة، الخصب، والمطر، والحَيَاتَان: العيش والذِّكر بعد الموت.  </replace>
+ </pair>
+  <pair>
+      <search>حياه</search>
+
+      <replace> نقيض الممات، بقاء العيش، المنفعة، الخصب، والمطر، والحَيَاتَان: العيش والذِّكر بعد الموت  </replace>
+ </pair>
+  <pair>
+      <search>ديب</search>
+
+      <replace>  تحريف ذِئْب: حيوان شديد الخبث والجرأة عند الجوع ، والكلب البري .دَاءُ الذِّئْب : كنية الجوع . </replace>
+ </pair>
+  <pair>
+      <search>عبد الرحمن</search>
+
+      <replace>  الرحمن من اسماء الله الحسنى </replace>
+ </pair>
+ <pair><search></search>
+
+      <replace>   </replace>
+ </pair>
+  <pair>
+      <search>دياب</search>
+
+      <replace> تحريف ذِئَاب : كلاب البرّ .   </replace>
+ </pair>
+  <pair>
+      <search>عبد الله</search>
+
+      <replace> اسم دال علي الذات الجامعة للصفات الهية كلها : الله من اسماء الله الحسنى  </replace>
+ </pair>
+  <pair>
+      <search>عبد الرحيم</search>
+
+      <replace>   الرحيم من اسماء الله الحسنى</replace>
+ </pair>
+  <pair>
+      <search>نور </search>
+
+      <replace> الضياء الذي يُبيِّن الأشياء ويُري الأبصار حقيقتها ، الحق ، إشراق الوجه ، الوسْم ، الوضوح ، البيان ، حُسن النبات وطوله ، النار ، النساء اللواتي ينفرن من الشرِّ والقبيح والريبة ، البقرات اللواتي ينفرن من الفحول ، ولقب كلّ من السيِّد المسيح"ع" والنبي محمّد"ص" ، والله عزَّ وجلّ نور السَّموات والأرض .   </replace>
+ </pair>
+  <pair>
+      <search>نوران</search>
+
+      <replace> تثنية نُوْر </replace>
+ </pair>
+  <pair>
+      <search>نورهان</search>
+
+      <replace>  قيل : إنّه اسم هندي الأصل ويعني : نور الشَّمس .  </replace>
+ </pair>
+  <pair>
+      <search>ناهد</search>
+
+      <replace> الأسد، الفتاة التي ارتفع ثدياها وأشرفا وصار لهما حجم، الغلام المراهق، والناهِض المُسرِع لمحاربة العدو .   </replace>
+ </pair>
+  <pair>
+      <search>دعاء</search>
+
+      <replace> العفو والرحمة ، التوحيد ، الثناء ، ما يُدعى به على أحد من شرٍّ له أو من خير ، الدعوة والطلب ، رجاء الخير ، العبادة ، المناداة ، الابتهال ، ومناجاة الله عز وجل .من أقوال الإمام علي بن أبي طالب"ع": الدَّاعي بلا عَمَل كالرَّاعي بلا وَتَر  </replace>
+ </pair>
+  <pair>
+      <search>سارة</search>
+
+      <replace> زوجة النبي ابراهيم"ع" وأمّ إسحق ، يعتقد بعضهم بأنّهَ عربي مأخوذ من سَرَّة : المرأة التي تُبهِج وتسُر الآخرين ، وطاقة الريحان ، أو من سَارَّة : التي تُفرِح الآخرين ، أو التي تُعلم بالسر، ومنهم من يقول : من السَّأْر والسُّؤرة ، أي : بقيَّة الشيء من الشراب أو الطعام، وقيل في السريانية بمعنى: أخت أو سيّدة، وفي العبرية: أميرة وكانت في الأصل تدعى "ساراي" و معناه: المجاهدة  </replace>
+ </pair>
+  <pair>
+      <search>هبة</search>
+
+      <replace> العطيَّة الخالية من الأغراض والأعواض   </replace>
+ </pair>
+  <pair>
+      <search>هبه</search>
+
+      <replace> العطيَّة الخالية من الأغراض والأعواض   </replace>
+ </pair>
+  <pair>
+      <search>نيرة</search>
+
+      <replace> الاسم من نيَّر الثوب: جعل له نيراً، والنير: علم الثوب سمّي بذلك لبروزه ووضوحه، القصب والخيوط إذا اجتمعت، هدب الثوب ولحمته، والنيرة: أداة يستخدمها النسَّاج وهي الخشبة المعترضة، وعند عامة الناس: اللثة.   </replace>
+ </pair>
+  <pair>
+      <search>نيره</search>
+
+      <replace> الاسم من نيَّر الثوب: جعل له نيراً، والنير: علم الثوب سمّي بذلك لبروزه ووضوحه، القصب والخيوط إذا اجتمعت، هدب الثوب ولحمته، والنيرة: أداة يستخدمها النسَّاج وهي الخشبة المعترضة، وعند عامة الناس: اللثة.   </replace>
+ </pair>
+  <pair>
+      <search>مروة</search>
+
+      <replace>  واحدة المَرو : حجارة بيضاء برّاقة كانت تستعمل لتوليد النار " الصوّان " ، شجر طيب الرائحة ، نوع من الرياحين ، والمروة جبل في مكّة المكرمة السَّعي فيه من شعائر الحجّ عند المسلمين .  </replace>
+ </pair>
+  <pair>
+      <search>مروه</search>
+
+      <replace> واحدة المَرو : حجارة بيضاء برّاقة كانت تستعمل لتوليد النار " الصوّان " ، شجر طيب الرائحة ، نوع من الرياحين ، والمروة جبل في مكّة المكرمة السَّعي فيه من شعائر الحجّ عند المسلمين .   </replace>
+ </pair>
+  <pair>
+      <search>حامد</search>
+
+      <replace>  الشَّاكر ، الذي يحمد الله عزّ وجلّ على نعمه ، وذو الصفات الحميدة  </replace>
+ </pair>
+  <pair>
+      <search>خالد</search>
+
+      <replace> الدائم ، الأزليّ، الباقي ، المُقيم في المكان ، الكبير الذي تأخّر عنه الشَّيْب، وخَالِدَة : مؤنث خَالِد ، ونبات للزينة أزهاره طويلة ، وخَالِد : كنية الكلب ، والخَالِدَان : الطُّهر والورع ، أو الشَّعب والوطن ، والخُلْد : من أسماء الجنَّة . خالد بن الوليد ( ت. 648م) : من أهم القادة العسكريين في التاريخ ، قهر دولتي الفرس والروم وانتصر انتصاراً باهراً في معركة اليرموك ، وتوفي في داره بحمص *(2)، قال نزار قباني *(3): وقَبْرُ خَالِدَ في حِمْصٍ نُلامِسُهُ فَيَرْجفُ القبْرُ مِنْ زُوَّارِهِ غَضَبَا يا رُبَّ حَيٍّ رُخَام القبْرِ مَسكنُهُ ورُبَّ مَيْتٍ على أقْدامِهِ انْتَصَبَا يا ابنَ الوليدِ .. أَلا سَيْفٌ تُؤَجِّرُهُ فكُلُّ أسْيَافِنا قد أصبحتْ خَشَبَا !   </replace>
+ </pair>
+  <pair>
+      <search>عازم</search>
+
+      <replace> الذي يعقد النيَّة على فعلٍ لا بدَّ أنَّه فاعله ، الصابر ، والجادّ   </replace>
+ </pair>
+  <pair>
+      <search>عاصم</search>
+
+      <replace> المانع عن المعاصي، الحامي، الواقي، والمُخلِّص. وعَاصِمَة: مؤنث عَاصِم، والمركز الإداري والسياسي والاقتصادي والعلمي للدولة  </replace>
+ </pair>
+  <pair>
+      <search>كوثر</search>
+
+      <replace> السيِّد الكثير الخير والعطاء ، الشراب العذب ، الوافر من كل شيء ، الكثير الالتفاف من كلِّ شيء ، وسورة من سور القرآن الكريم. والكَوْثَر : نهر في الجنَّة تتفرّع منه جميع أنهارها ذُكِر بأنَّه خاص بالنبي محمد"صلى اله عليه وسلم" ، وهو أشدُّ بياضاً من اللبن وأشدُّ حلاوة من العسل   </replace>
+ </pair>
+  <pair>
+      <search>جليل</search>
+
+      <replace>   السيِّد العظيم القدر ، المتقدم في السِّن ، كامل الذات والصفات ، المنظر الرائع ، من صفات الله عز وجل ، والجليل :كتلة جبلية في فلسطين هي امتداد لجبل عامل في لبنان ، من مدنها حيفا وعكا والناصرة  </replace>
+ </pair>
+  <pair>
+      <search>جميل</search>
+
+      <replace>  ذو الجَمال والحُسن في الفعل والخَلْق ، الإحسان والمعروف ، والشحم المُذاب .من أقوال العرب : كَمَا تَرَانِي يا جَمِيْلُ أَرَاك  </replace>
+ </pair>
+  <pair>
+      <search>حليم</search>
+
+      <replace> الصبور ، الهادئ المتأني مع القدرة والقوة ، العاقل ، والبدين .حليمة بنت أبي ذؤيب : مُرضع النبي محمد "صلى الله عليه وسلم "  </replace>
+ </pair>
+  <pair>
+      <search>خليل</search>
+
+      <replace> الصديق الخاص، الصافي المودة، الصادق، السَّيف، الرمح، الناصح، الحبيب، الرفيق، الضعيف الجسم، الفقير، وخليل الله: النبي إبراهيم "ع".الخليل بن أحمد الفراهيدي من أهل البصرة ( ت. 791م): أستاذ الأصمعي وسيبويه، ويعتبر من أشهر عُلماء اللغة، فهو الذي وضع عِلم العروض المختص بالأوزان الشعرية، ووضع أول معجم باللغة العربية "كتاب العين" رُتِّب ابتداءً من حرف العين، ومن مؤلفاته: كتاب في النحو، وفي النغم، وتراكيب االأصوات، وفي العروض   </replace>
+ </pair>
+  <pair>
+      <search>تغريد</search>
+
+      <replace>التطريب في الغناء ، الصوت المترافق مع بحّة ، شدو الطيور ، صوت الحادي ، وصوت القوس . </replace>
+ </pair>
+  <pair>
+      <search>غادة</search>
+
+      <replace>الفتاة اللَّينة الناعمة ، المتمايلة برقةٍ ونعومة ودلال ، والشَّجرة الغضَّة . </replace>
+ </pair>
+  <pair>
+      <search>غاده</search>
+
+      <replace>الفتاة اللَّينة الناعمة ، المتمايلة برقةٍ ونعومة ودلال ، والشَّجرة الغضَّة . </replace>
+ </pair>
+  <pair>
+      <search>حسنى</search>
+
+      <replace>المعاملة اللطيفة، العاقبة الحَسَنة، الجنَّة، الظفر والفوز، الاستشهاد في سبيل الله، والحُسْنَيَان : النَّصر والشَّهادة ، والأسماء الحُسْنى : الأسماء الفُضلى وعددها 99 . </replace>
+ </pair>
+  <pair>
+      <search>حسني</search>
+
+      <replace>نسبة إلى الحُسن: الجمال والبهاء، قال أبو الطيِّب المتنبي *(13): وَما الحُسْنُ في وَجْهِ الفَتى شَرَفاً لَهُ إذا لَمْ يكُنْ في فعْلِهِ والخَلائِقِ </replace>
+ </pair>
+  <pair>
+      <search>ياسمين</search>
+
+      <replace>نبات طيِّب الرائحة زهره أبيض يستعمل في صناعة المواد العطرية. ابن الياسمين (ت. 1204م.) :كاتب رياضي وعالم بالحساب والعدد والهندسة والمنطق والهيئة، أبدع في تعريف مفهومي الجبر والمقابلة وله: أرجوزة في الجبر والمقابلة، وأخرى في أعمال الجذور </replace>
+ </pair>
+  <pair>
+      <search>مريم</search>
+
+      <replace>على وزن مَفْعَل ، من رامَ يريم إذا بَرِحَ ، يُقال : ما يَرِيمُ يفعل ذلك ، أي : ما يَبْرحُ ، ويُقال ما رِمْتُ أفعله ، وما رِمْتُ المكان ، وما رِمْتُ منه ، وقيل : إنَّ المَرْيَم من النساء هي : التي تُحب حديث الرجال ولا تفجُر ، واسم السيِّدة مريم "ع" قيل آرامي ويعني : العابدة ، المتعبدة التي تخدم في بيوت الله ، وقيل في السريانية معناه : المرتفعة ، ومرارة البحر . </replace>
+ </pair>
+  <pair>
+      <search>جلال</search>
+
+      <replace> العظمة ، النزاهة ، الإكرام ، التقدم في السِّن ، الله سبحانه وتعالى ذو الجلال والإكرام </replace>
+ </pair>
+  <pair>
+      <search>دلال</search>
+
+      <replace>الغنج والتلوّي، الوقار، المِنّة في العطاء، الافتخار، الحَسَنة الحديث، الحَسَنة المزاح والهيئة، المرأة التي تتدلّل على زوجها وذلك بأن تُريه جرأةً عليه في تغنّج وتشكّل كأنّها تُخالفه وليس بها خلاف . </replace>
+ </pair>
+  <pair>
+      <search>جمال</search>
+
+      <replace>الحُسْن والبهاء في الخَلق والخُلق ، صفة الحُسن في الأشياء .قال الإمام علي"ع" *(10):ليسَ الجَمالُ بأثوابٍ تُزَيِّنُنا إنَّ الجَمالَ جمالُ العِلمِ والأدبِ </replace>
+ </pair>
+  <pair>
+      <search>لؤي</search>
+
+      <replace>تصغير لأي: الإبطاء ، المشقَّة والجهد ، اللَّبْث والإقامة ، الشدَّة في العيش ، والحاجة إلى الناس ، واللأى : الشدة في العيش، والثور الوحشي ، والأنثى منه : لآة . </replace>
+ </pair>
+  <pair>
+      <search>لؤى</search>
+
+      <replace>تصغير لأي: الإبطاء ، المشقَّة والجهد ، اللَّبْث والإقامة ، الشدَّة في العيش ، والحاجة إلى الناس ، واللأى : الشدة في العيش، والثور الوحشي ، والأنثى منه : لآة . </replace>
+ </pair>
+  <pair>
+      <search>منى</search>
+
+      <replace>ما يتمنى المرء وما يرغب في الحصول عليه ، سؤال الله في الحوائج ، البُغيَة ، الأرَب ، المَطلب ، المنْزل الكبير أو القصر المُتخذ في الريف ويُعرف"بالفيلا ". </replace>
+ </pair>
+  <pair>
+      <search>مني</search>
+
+      <replace>ما يتمنى المرء وما يرغب في الحصول عليه ، سؤال الله في الحوائج ، البُغيَة ، الأرَب ، المَطلب ، المنْزل الكبير أو القصر المُتخذ في الريف ويُعرف"بالفيلا ". </replace>
+ </pair>
+  </preg_replace>
+</data> 
