@@ -16,20 +16,20 @@ it takes the writtin text and calls the language opposition procedure, then the 
 
 
 ### AnalysisManager : this class contains four procedures : 
-1- isFemale(String name): determines if the name is belong to male or female.
-2- languageOpposition(String name): to get the translation of the word in the opposite language (if the argument is wriiten in English it returns it in the Arabic). 
-3- processDerivations(String name): to get the word derivations 
-4- processMeaning(String name): to get the word meaning the previous procedure use another procedures to access XML files and get the translation and derivations and meaning. These procedures are grouped in the XmlManager
+* isFemale(String name): determines if the name is belong to male or female.
+* languageOpposition(String name): to get the translation of the word in the opposite language (if the argument is wriiten in English it returns it in the Arabic). 
+* processDerivations(String name): to get the word derivations 
+* processMeaning(String name): to get the word meaning the previous procedure use another procedures to access XML files and get the translation and derivations and meaning. These procedures are grouped in the XmlManager
 
 
 
 ### XmlManager: contains the following procedures: 
-1- parseTranslation(InputStream): this procedure parses the translation.xml file to map the words and their oppositions .
-2- getTranslation(String) : to get the word translation to return it to the languageOpposition procedure.
-3- parseDerivations(InputSream): to parse the ArQuery.xml to use it in the processDerivations procedure to get the name derivations.
-4- parseMeaning(InputSream) : to parse the name.xml file to use it in the processMeaning procedure to get the name meaning.
-5- fillMap(): helper procedure in the xml parsing 
-6- getBytesFromFile(): to convert the file to array of bytes.
+* parseTranslation(InputStream): this procedure parses the translation.xml file to map the words and their oppositions .
+* getTranslation(String) : to get the word translation to return it to the languageOpposition procedure.
+* parseDerivations(InputSream): to parse the ArQuery.xml to use it in the processDerivations procedure to get the name derivations.
+* parseMeaning(InputSream) : to parse the name.xml file to use it in the processMeaning procedure to get the name meaning.
+* fillMap(): helper procedure in the xml parsing 
+* getBytesFromFile(): to convert the file to array of bytes.
 
 
 ### References
