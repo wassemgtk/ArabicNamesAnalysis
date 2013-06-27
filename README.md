@@ -6,10 +6,10 @@ I built a new addition to the analysis of Arabic names in Palantir's system.
 
 #### Arabic Names Analysis
 
-In the helperFactory class that contains the main controls and  buttons . there is new controls to handle the results. And there is new button named (Analysis) to handle the user event . when the event is fired it calls the next procedure (doAnalyse)
+In the helperFactory class that contains the main controls and  buttons. there is new controls to handle the results. And there is new button named (Analysis) to handle the user event . when the event is fired it calls the next procedure (doAnalyse)
 
 
-#### doAnalyse() : this is the main procedure that calls the remaining functions .
+#### doAnalyse() : this is the main procedure that calls the remaining functions.
 
 it takes the writtin text and calls the language opposition procedure, then the sex type procedure will be called on the resulted word to determine the type (male or female). Then the work derivations will be extracted by calling the derivations procedure. Finally the meaning procedure is called to get the word meaning.These four procedures are grouped in the AnalysisManager.
 
