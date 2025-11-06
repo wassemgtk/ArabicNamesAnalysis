@@ -1,10 +1,5 @@
 package com.analysis;
 
-
-import java.io.ByteArrayInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
@@ -22,75 +17,40 @@ import org.w3c.dom.NodeList;
 
 public class XmlManager {
 	// Constants
-	static final String File = "file";
-	static final String Function = "function";
-	static final String PregReplace = "preg_replace";
-	static final String StrReplace = "str_replace";
-	static final String En2Ar = "en2ar";
-	static final String Ar2En = "ar2en";
-	static final String Search = "search";
-	static final String Replace = "replace";
-	static final String  __construct ="__construct";
+	private final String File = "file";
+	private final String Function = "function";
+	private final String PregReplace = "preg_replace";
+	private final String StrReplace = "str_replace";
+	private final String En2Ar = "en2ar";
+	private final String Ar2En = "ar2en";
+	private final String Search = "search";
+	private final String Replace = "replace";
+	private final String __construct = "__construct";
 	// To store preg replace en2ar translations
-	private static Map<String, String> pregReplaceEn2ArMap = new HashMap<String, String>();
+	private Map<String, String> pregReplaceEn2ArMap = new HashMap<String, String>();
 	// To store str replace en2ar translations
-	private static Map<String, String> strReplaceEn2ArMap = new HashMap<String, String>();
+	private Map<String, String> strReplaceEn2ArMap = new HashMap<String, String>();
 	// To store preg replace ar2en translations
-	private static Map<String, String> pregReplaceAr2EnMap = new HashMap<String, String>();
+	private Map<String, String> pregReplaceAr2EnMap = new HashMap<String, String>();
 	// To store str replace ar2en translations
-	private static Map<String, String> strReplaceAr2EnMap = new HashMap<String, String>();
+	private Map<String, String> strReplaceAr2EnMap = new HashMap<String, String>();
 	// To store meanings
-		private static Map<String, String> meaningsMap = new HashMap<String, String>();
-		// To store derivations
-				private static Map<String, String> derivationsMap = new HashMap<String, String>();
+	private Map<String, String> meaningsMap = new HashMap<String, String>();
+	// To store derivations
+	private Map<String, String> derivationsMap = new HashMap<String, String>();
+	// To store names and their genders
+	private Map<String, String> namesMap = new HashMap<String, String>();
 
-
-	/**
-	 * To convert file to byte of array
-	 * 
-	 * @param file
-	 * @return the passed file as byte array
-	 * @throws IOException
-	 */
-	public static byte[] getBytesFromFile(java.io.File file) throws IOException {
-		InputStream is = new FileInputStream(file);
-
-		// Get the size of the file
-		long length = file.length();
-
-		if (length > Integer.MAX_VALUE) {
-			// File is too large
-			throw new IOException("File is too larg " + file.getName());
-		}
-
-		// Create the byte array to hold the data
-		byte[] bytes = new byte[(int) length];
-
-		// Read in the bytes
-		int offset = 0;
-		int numRead = 0;
-		while (offset < bytes.length
-				&& (numRead = is.read(bytes, offset, bytes.length - offset)) >= 0) {
-			offset += numRead;
-		}
-
-		// Ensure all the bytes have been read in
-		if (offset < bytes.length) {
-			throw new IOException("Could not completely read file "
-					+ file.getName());
-		}
-
-		// Close the input stream and return bytes
-		is.close();
-		return bytes;
+	public XmlManager() {
 	}
 
 	/**
 	 * To parse translation xml
-	 * 
+	 *
 	 * @param inputStream
+	 * @throws XmlParseException
 	 */
-	public static void parseTranslation(InputStream inputStream) {
+	public void parseTranslation(InputStream inputStream) throws XmlParseException {
 		try {
 			DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory
 					.newInstance();
@@ -125,21 +85,18 @@ public class XmlManager {
 					}
 				}
 			}
-		} catch (FileNotFoundException fileNotFoundException) {
-			fileNotFoundException.printStackTrace();
-
 		} catch (Exception exception) {
-			exception.printStackTrace();
+			throw new XmlParseException("Failed to parse translation XML", exception);
 		}
 	}
 
-	
 	/**
 	 * To parse meaning xml
-	 * 
+	 *
 	 * @param inputStream
+	 * @throws XmlParseException
 	 */
-	public static void parseMeanings(InputStream inputStream) {
+	public void parseMeanings(InputStream inputStream) throws XmlParseException {
 		try {
 			DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory
 					.newInstance();
@@ -161,21 +118,18 @@ public class XmlManager {
 					}
 				}
 			}
-		} catch (FileNotFoundException fileNotFoundException) {
-			fileNotFoundException.printStackTrace();
-
 		} catch (Exception exception) {
-			exception.printStackTrace();
+			throw new XmlParseException("Failed to parse meaning XML", exception);
 		}
 	}
 
-	
 	/**
 	 * To parse derivations xml
-	 * 
+	 *
 	 * @param inputStream
+	 * @throws XmlParseException
 	 */
-	public static void parseDerivations(InputStream inputStream) {
+	public void parseDerivations(InputStream inputStream) throws XmlParseException {
 		try {
 			DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory
 					.newInstance();
@@ -197,34 +151,57 @@ public class XmlManager {
 					}
 				}
 			}
-		} catch (FileNotFoundException fileNotFoundException) {
-			fileNotFoundException.printStackTrace();
-
 		} catch (Exception exception) {
-			exception.printStackTrace();
+			throw new XmlParseException("Failed to parse derivations XML", exception);
 		}
 	}
 
+	/**
+	 * To parse names xml
+	 *
+	 * @param inputStream
+	 * @throws XmlParseException
+	 */
+	public void parseNames(InputStream inputStream) throws XmlParseException {
+		try {
+			DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory
+					.newInstance();
+			DocumentBuilder documentBuilder = documentBuilderFactory
+					.newDocumentBuilder();
+			Document document = documentBuilder.parse(inputStream);
+			NodeList listGroup = document.getDocumentElement().getChildNodes();
+			for (int index = 0; index < listGroup.getLength(); index++) {
+				Node group = listGroup.item(index);
+				if (group.getNodeType() == Node.ELEMENT_NODE) {
+					Element groupElment = (Element) group;
+					if (groupElment.getNodeName().equalsIgnoreCase("name")) {
+						String gender = groupElment.getAttribute("gender");
+						String name = groupElment.getTextContent();
+						namesMap.put(name, gender);
+					}
+				}
+			}
+		} catch (Exception exception) {
+			throw new XmlParseException("Failed to parse names XML", exception);
+		}
+	}
 
 	/**
-	 * To get translation for specific word
-	 * 
-	 * @param word
-	 * @return
+	 * To get translation for a specific word, handling various cases.
+	 *
+	 * @param word The word to be translated.
+	 * @return The translated word, or null if the input is empty.
 	 */
-	public static String getTranslation(String word) {
-		String firstSideTranslation = "";
-		String lastSideTranslation = "";
-		String translation = "";
-		String word1 = "";
-		// check if empty word
-		if (word == null || word.equals("") || word.length() == 0) {
+	public String getTranslation(String word) {
+		if (word == null || word.isEmpty()) {
 			return null;
 		}
-		// process begin of word
-		boolean match = false;
+
+		// Process the beginning of the word to find a matching prefix
+		String firstSideTranslation = "";
 		int firstIndex = 0;
-		// process first two characters
+
+		// Check for a two-character prefix
 		if (word.length() >= 2) {
 			String firstSide = word.substring(0, 2);
 			for (String key : pregReplaceEn2ArMap.keySet()) {
@@ -232,14 +209,14 @@ public class XmlManager {
 				Matcher matcher = pattern.matcher(firstSide);
 				if (matcher.matches()) {
 					firstSideTranslation = pregReplaceEn2ArMap.get(key);
-					match = true;
 					firstIndex = 2;
 					break;
 				}
 			}
 		}
-		// process first one character
-		if (!match && word.length() >= 1) {
+
+		// If no two-character prefix is found, check for a one-character prefix
+		if (firstIndex == 0 && word.length() >= 1) {
 			String firstSide = word.substring(0, 1);
 			for (String key : pregReplaceEn2ArMap.keySet()) {
 				Pattern pattern = Pattern.compile(key.replace("/", ""));
@@ -251,107 +228,108 @@ public class XmlManager {
 				}
 			}
 		}
-		// process end of word
-		word1 = word.substring(firstIndex, word.length());
-		match = false;
+
+		// Process the end of the word to find a matching suffix
+		String lastSideTranslation = "";
 		int lastIndex = 0;
-		// process last four characters
-		if (word1.length() >= 4) {
-			String lastSide = word1.substring(word1.length() - 4, word1
-					.length());
+		String remainingWord = word.substring(firstIndex);
+
+		// Check for a four-character suffix
+		if (remainingWord.length() >= 4) {
+			String lastSide = remainingWord.substring(remainingWord.length() - 4);
 			for (String key : pregReplaceEn2ArMap.keySet()) {
 				Pattern pattern = Pattern.compile(key.replace("$", ""));
 				Matcher matcher = pattern.matcher(lastSide);
 				if (matcher.matches()) {
 					lastSideTranslation = pregReplaceEn2ArMap.get(key);
 					lastIndex = 4;
-					match = true;
 					break;
 				}
 			}
 		}
-		// process last two characters
-		if (!match && word1.length() >= 2) {
-			String lastSide = word1.substring(word1.length() - 2, word1
-					.length());
+
+		// If no four-character suffix is found, check for a two-character suffix
+		if (lastIndex == 0 && remainingWord.length() >= 2) {
+			String lastSide = remainingWord.substring(remainingWord.length() - 2);
 			for (String key : pregReplaceEn2ArMap.keySet()) {
 				Pattern pattern = Pattern.compile(key.replace("$", ""));
 				Matcher matcher = pattern.matcher(lastSide);
 				if (matcher.matches()) {
 					lastSideTranslation = pregReplaceEn2ArMap.get(key);
 					lastIndex = 2;
-					match = true;
 					break;
 				}
 			}
 		}
-		// process last one character
-		if (!match && word1.length() >= 2) {
-			String lastSide = word1.substring(word1.length() - 1, word1
-					.length());
+
+		// If no two-character suffix is found, check for a one-character suffix
+		if (lastIndex == 0 && remainingWord.length() >= 1) {
+			String lastSide = remainingWord.substring(remainingWord.length() - 1);
 			for (String key : pregReplaceEn2ArMap.keySet()) {
 				Pattern pattern = Pattern.compile(key.replace("$", ""));
 				Matcher matcher = pattern.matcher(lastSide);
 				if (matcher.matches()) {
 					lastSideTranslation = pregReplaceEn2ArMap.get(key);
 					lastIndex = 1;
-					match = true;
 					break;
 				}
 			}
 		}
-		// process remaining word
-		String remainWord = word.substring(firstIndex, word.length()
-				- lastIndex);
-		translation = firstSideTranslation;
-		int index = 0;
-		while (index < remainWord.length()) {
-			if (remainWord.length() >= 4) {
-				String str = strReplaceEn2ArMap.get(remainWord.substring(0, 4));
-				if (str != null) {
-					translation += str;
-					remainWord = remainWord.substring(4, remainWord.length());
-					continue;
-				}
-			}
-			if (remainWord.length() >= 3) {
-				String str = strReplaceEn2ArMap.get(remainWord.substring(0, 3));
-				if (str != null) {
-					translation += str;
-					remainWord = remainWord.substring(3, remainWord.length());
-					continue;
-				}
-			}
-			if (remainWord.length() >= 2) {
-				String str = strReplaceEn2ArMap.get(remainWord.substring(0, 2));
-				if (str != null) {
-					translation += str;
-					remainWord = remainWord.substring(2, remainWord.length());
-					continue;
-				}
-			}
-			if (remainWord.length() >= 1) {
-				String str = strReplaceEn2ArMap.get(remainWord.substring(0, 1));
-				if (str != null) {
-					translation += str;
-					remainWord = remainWord.substring(1, remainWord.length());
-					continue;
-				}
-			}
 
+		// Process the middle of the word
+		String middleWord = remainingWord.substring(0, remainingWord.length() - lastIndex);
+		String middleTranslation = "";
+		int index = 0;
+		while (index < middleWord.length()) {
+			boolean matchFound = false;
+			// Check for 4-character matches
+			if (middleWord.length() - index >= 4) {
+				String sub = middleWord.substring(index, index + 4);
+				if (strReplaceEn2ArMap.containsKey(sub)) {
+					middleTranslation += strReplaceEn2ArMap.get(sub);
+					index += 4;
+					matchFound = true;
+				}
+			}
+			// Check for 3-character matches
+			if (!matchFound && middleWord.length() - index >= 3) {
+				String sub = middleWord.substring(index, index + 3);
+				if (strReplaceEn2ArMap.containsKey(sub)) {
+					middleTranslation += strReplaceEn2ArMap.get(sub);
+					index += 3;
+					matchFound = true;
+				}
+			}
+			// Check for 2-character matches
+			if (!matchFound && middleWord.length() - index >= 2) {
+				String sub = middleWord.substring(index, index + 2);
+				if (strReplaceEn2ArMap.containsKey(sub)) {
+					middleTranslation += strReplaceEn2ArMap.get(sub);
+					index += 2;
+					matchFound = true;
+				}
+			}
+			// Check for 1-character matches
+			if (!matchFound && middleWord.length() - index >= 1) {
+				String sub = middleWord.substring(index, index + 1);
+				if (strReplaceEn2ArMap.containsKey(sub)) {
+					middleTranslation += strReplaceEn2ArMap.get(sub);
+					index += 1;
+				}
+			}
 		}
-		translation += lastSideTranslation;
-		return translation;
+
+		return firstSideTranslation + middleTranslation + lastSideTranslation;
 	}
-	
-	
+
+
 	/**
 	 * To fill translations in map
-	 * 
+	 *
 	 * @param map
 	 * @param nodeList
 	 */
-	public static void fillMap(Map<String, String> map, NodeList nodeList) {
+	public void fillMap(Map<String, String> map, NodeList nodeList) {
 		for (int index1 = 0; index1 < nodeList.getLength(); index1++) {
 			Node node = nodeList.item(index1);
 			if (node.getNodeType() == Node.ELEMENT_NODE) {
@@ -377,54 +355,31 @@ public class XmlManager {
 		}
 	}
 
-	public static Map<String, String> getPregReplaceEn2ArMap() {
+	public Map<String, String> getPregReplaceEn2ArMap() {
 		return pregReplaceEn2ArMap;
 	}
 
-	public static void setPregReplaceEn2ArMap(
-			Map<String, String> pregReplaceEn2ArMap) {
-		XmlManager.pregReplaceEn2ArMap = pregReplaceEn2ArMap;
-	}
-
-	public static Map<String, String> getStrReplaceEn2ArMap() {
+	public Map<String, String> getStrReplaceEn2ArMap() {
 		return strReplaceEn2ArMap;
 	}
 
-	public static void setStrReplaceEn2ArMap(Map<String, String> strReplaceEn2ArMap) {
-		XmlManager.strReplaceEn2ArMap = strReplaceEn2ArMap;
-	}
-
-	public static Map<String, String> getPregReplaceAr2EnMap() {
+	public Map<String, String> getPregReplaceAr2EnMap() {
 		return pregReplaceAr2EnMap;
 	}
 
-	public static void setPregReplaceAr2EnMap(
-			Map<String, String> pregReplaceAr2EnMap) {
-		XmlManager.pregReplaceAr2EnMap = pregReplaceAr2EnMap;
-	}
-
-	public static Map<String, String> getStrReplaceAr2EnMap() {
+	public Map<String, String> getStrReplaceAr2EnMap() {
 		return strReplaceAr2EnMap;
 	}
 
-	public static void setStrReplaceAr2EnMap(Map<String, String> strReplaceAr2EnMap) {
-		XmlManager.strReplaceAr2EnMap = strReplaceAr2EnMap;
-	}
-
-	public static Map<String, String> getMeaningsMap() {
+	public Map<String, String> getMeaningsMap() {
 		return meaningsMap;
 	}
 
-	public static void setMeaningsMap(Map<String, String> meaningsMap) {
-		XmlManager.meaningsMap = meaningsMap;
-	}
-
-	public static Map<String, String> getDerivationsMap() {
+	public Map<String, String> getDerivationsMap() {
 		return derivationsMap;
 	}
 
-	public static void setDerivationsMap(Map<String, String> derivationsMap) {
-		XmlManager.derivationsMap = derivationsMap;
+	public Map<String, String> getNamesMap() {
+		return namesMap;
 	}
-	
 }

@@ -3,26 +3,26 @@ package com.analysis;
 /*
  * All source code and information in this file is made
  * available under the following licensing terms:
- * 
+ *
  * Copyright (c) 2009, Palantir Technologies, Inc.
- * All rights reserved.
- * 
+ * All rights reserved;
+ *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are
  * met:
- * 
+ *
  *     * Redistributions of source code must retain the above copyright
  *       notice, this list of conditions and the following disclaimer.
- * 
+ *
  *     * Redistributions in binary form must reproduce the above
  *       copyright notice, this list of conditions and the following
  *       disclaimer in the documentation and/or other materials provided
  *       with the distribution.
- * 
+ *
  *     * Neither the name of Palantir Technologies, Inc. nor the names of its
  *       contributors may be used to endorse or promote products derived
  *       from this software without specific prior written permission.
- * 
+ *
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
  * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
  * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
@@ -34,8 +34,8 @@ package com.analysis;
  * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- * 
- * 
+ *
+ *
  */
 
 import java.awt.BorderLayout;
@@ -97,12 +97,12 @@ import com.palantir.util.paging.ResultsPage;
 
 /**
  * This ArabicNamesAnalysisHelperFactory is a factory which generates the ArabicNamesAnalysisHelper.
- * 
+ *
  */
 public class ArabicNamesAnalysisHelperFactory extends AbstractHelperFactory {
 
 	public ArabicNamesAnalysisHelperFactory() {
-		super("ArabicNamesAnalysisHelper Helper", 
+		super("ArabicNamesAnalysisHelper Helper",
 				new String[] { GraphApplicationInterface.APPLICATION_URI },
 				new Integer [] { SwingConstants.VERTICAL },
 				new Dimension(330,500),
@@ -112,7 +112,7 @@ public class ArabicNamesAnalysisHelperFactory extends AbstractHelperFactory {
 
 	/**
 	 * <p>Creates an instance of the helper.</p>
-	 *  
+	 *
 	 * @param palantirContext the Palantir context for this helper
 	 * @param application the application content
 	 * @return a new helper
@@ -122,7 +122,7 @@ public class ArabicNamesAnalysisHelperFactory extends AbstractHelperFactory {
 	}
 
 	protected static class ArabicNamesAnalysisHelper implements HelperInterface, ActionListener{
-		
+
 		private HelperFactory factory;
 		private JTextField nameField;
 		private JPanel panel;
@@ -132,16 +132,16 @@ public class ArabicNamesAnalysisHelperFactory extends AbstractHelperFactory {
 		private JTextField sexField;
 		private JTextField derivationsField;
 		private JTextField meaningField;
-		
+
 		@SuppressWarnings("serial")
 		public ArabicNamesAnalysisHelper(HelperFactory factory, PalantirContext palantirContext, ApplicationInterface application) {
 			this.factory = factory;
 			this.palantirContext = palantirContext;
 
-			
+
 			panel = new JPanel(new BorderLayout());
-			
-			JPanel topPanel = new JPanel(TableLayouts.create("1,p,p","p,p,p,p", 8, 8));			
+
+			JPanel topPanel = new JPanel(TableLayouts.create("1,p,p","p,p,p,p", 8, 8));
 
 			topPanel.setBackground(palantirContext.getColors().getSecondaryBackgroundColor());
 			topPanel.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, Color.GRAY));
@@ -180,52 +180,52 @@ public class ArabicNamesAnalysisHelperFactory extends AbstractHelperFactory {
 			analyseButton.setActionCommand("ANALYSIS");
 			analyseButton.addActionListener(this);
 			topPanel.add( analyseButton, "1,4");
-			
+
 			/** add the name opposition label */
 			JLabel oppositeLabel = new JLabel("Opposite Name:");
 			palantirContext.registerComponentForFontManagement(0, oppositeLabel);
 			topPanel.add(oppositeLabel, "1,5");
-			
+
 			/** add the name opposition field */
 			oppositeName = new JTextField();
 			palantirContext.registerComponentForFontManagement(0, oppositeName);
 			oppositeName.setEditable(false);
 			topPanel.add(oppositeName, "2,5");
-			
+
 			/** add the name sex type label */
 			JLabel sexTypeLabel = new JLabel("Sex:");
 			palantirContext.registerComponentForFontManagement(0, sexTypeLabel);
 			topPanel.add(sexTypeLabel, "1,6");
-			
+
 			/** add the name sex type field */
 			sexField = new JTextField();
 			palantirContext.registerComponentForFontManagement(0, sexField);
 			sexField.setEditable(false);
 			topPanel.add(sexField, "2,6");
-			
+
 			/** add the name derivations label */
 			JLabel derivationsLabel = new JLabel("Derivations:");
 			palantirContext.registerComponentForFontManagement(0, derivationsLabel);
 			topPanel.add(derivationsLabel, "1,7");
-			
+
 			/** add the name derivations field */
 			derivationsField = new JTextField();
 			palantirContext.registerComponentForFontManagement(0, derivationsField);
 			derivationsField.setEditable(false);
 			topPanel.add(derivationsField, "2,7");
-			
+
 			/** add the name meaning label */
 			JLabel meaningLabel = new JLabel("Meaning:");
 			palantirContext.registerComponentForFontManagement(0, meaningLabel);
 			topPanel.add(meaningLabel, "1,8");
-			
+
 			/** add the name meaning field */
 			meaningField = new JTextField();
 			palantirContext.registerComponentForFontManagement(0, meaningField);
 			meaningField.setEditable(false);
 			topPanel.add(meaningField, "2,8");
-			
-			
+
+
 			panel.setBackground(palantirContext.getColors().getPrimaryBackgroundColor());
 
 			ScaledImagePanel image = new ScaledImagePanel(retrieveImage("/baghdad_tall.jpg")) {
@@ -291,9 +291,9 @@ public class ArabicNamesAnalysisHelperFactory extends AbstractHelperFactory {
 
 
 		private Image retrieveImage(String name) {
-			Image theImage=null;						
-			try {		
-				theImage = new ImageIcon(ImageIO.read(ArabicNamesAnalysisHelperFactory.class.getResource(name))).getImage();				
+			Image theImage=null;
+			try {
+				theImage = new ImageIcon(ImageIO.read(ArabicNamesAnalysisHelperFactory.class.getResource(name))).getImage();
 				return theImage;
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -310,7 +310,7 @@ public class ArabicNamesAnalysisHelperFactory extends AbstractHelperFactory {
 			else if( e.getActionCommand().equals("CREATE")) {
 				doCreate();
 			}
-			
+
 			else if( e.getActionCommand().equals("ANALYSIS")) {
 				doAnalyse();
 			}
@@ -328,9 +328,9 @@ public class ArabicNamesAnalysisHelperFactory extends AbstractHelperFactory {
 				JOptionPane.showMessageDialog( palantirFrame.getFrame() , "No name specified");
 				return;
 			}
-			
+
 			final PalantirConnection conn = this.palantirContext.getPalantirConnection();
-			
+
 			SwingWorker<Void, Void> worker = new SwingWorker<Void, Void>() {
 
 				@Override
@@ -338,13 +338,13 @@ public class ArabicNamesAnalysisHelperFactory extends AbstractHelperFactory {
 
 					//new search
 					ISearchQuery sq = palantirContext.getSearchFactory().getNewSearchQuery(OperatorType.INTERSECT );
-					
+
 					// by person
 					sq.addObjectTypeTerm(PTObjectType.PERSON);
-					
+
 					PropertyType nameType = PropertyType.NAME;
 					sq.addPropertyTerm(nameType, name, SearchOperator.EQUALS);
-					
+
 					// run the query (get pages of results)
 					SearchResultsPager pager = conn.search(sq);
 
@@ -364,15 +364,15 @@ public class ArabicNamesAnalysisHelperFactory extends AbstractHelperFactory {
 						JOptionPane.showMessageDialog( palantirFrame.getFrame(), "No objects found with name: " + name );
 						return null;
 					}
-					
+
 					//add the results to the graph
 					palantirContext.getGraph().addObjectsToGraph(ptocs);
-					
+
 					return null;
 				}
-				
+
 			};
-			
+
 			// API safe way to do tasks that are investigation dependent
 			palantirContext.getMonitoredExecutorService().execute(worker);
 
@@ -390,51 +390,51 @@ public class ArabicNamesAnalysisHelperFactory extends AbstractHelperFactory {
 				return;
 			}
 			final PalantirConnection conn = this.palantirContext.getPalantirConnection();
-			
+
 			SwingWorker<Void, Void> worker = new SwingWorker<Void, Void>() {
 
 				@Override
 				protected Void doInBackground() throws Exception {
-					
+
 					//create the data source records
 					DataSourceRecord dsr = conn.getDsrFactory().createManuallyEnteredDsr();
 					Collection<DataSourceRecord> dsrs = Collections.singleton(dsr);
 
-					
+
 					//create object
 					PTObjectType ptocType = PTObjectType.PERSON;
 					PTObjectContainer ptoc = PTObjectContainerFactory.createBlankObject(conn, ptocType );
-					
+
 					//set the title/label
 					String label = name;
 					ptoc.setTitle(label, conn, dsrs, SETTER_STYLE.KEEP_OTHERS, 1L);
 
 					//set the name property
-					PropertyType nameProp = PropertyType.NAME;	
+					PropertyType nameProp = PropertyType.NAME;
 					Property p = Property.attemptToCreate(conn, nameProp, name, Role.NONE);
 					p.addDataSourceRecord(conn.getDsrFactory().copyDsr(dsr));
 					ptoc.addProperty(p);
 
 					ArrayList<PTObjectContainer> ptocs = new ArrayList<PTObjectContainer>();
 					ptocs.add( ptoc );
-					
+
 					// Store the object to the current investigative realm
 					conn.objectStore(ptocs,PalantirDataEventType.DATA);
-					
+
 					// add to the graph
 					palantirContext.getGraph().addObjectsToGraph(ptocs);
 
 					return null;
 				}
-				
+
 			};
-			
-			palantirContext.getMonitoredExecutorService().execute(worker);			
+
+			palantirContext.getMonitoredExecutorService().execute(worker);
 
 		}
-		
+
 		/**
-		 * - convert the name from it's language to the opposite language 
+		 * - convert the name from it's language to the opposite language
 		 * - determine if the name is belong to male or female
 		 * - return the name derivations
 		 * - return the meaning of the name
@@ -446,31 +446,27 @@ public class ArabicNamesAnalysisHelperFactory extends AbstractHelperFactory {
 				JOptionPane.showMessageDialog( palantirFrame.getFrame() , "No name specified");
 				return;
 			}
-			
+
 			String[] words = name.split(" ");
 			String firstWord = words[0];
-			
-			AnalysisManager mgr = new AnalysisManager();			
-			/** processing the conversion from them name language to the opposite language */
-			String oppositedName = mgr.languageOpposition(firstWord);
-			oppositeName.setText(oppositedName);
-			
-			/** processing the name type (male or female) */
-			boolean female = mgr.isFemale(oppositedName);
-			if(female == false){
-				sexField.setText("Male");
-			}else{
-				sexField.setText("Female");
-			}
-			
-			/** processing the name derivations */
-			Strign derivations = mgr.processDerivations(oppositedName);
-			derivationsField.setText(derivations);
-			
-			/** get the name meaning */
-			Strign meaning = mgr.processMeaning(oppositedName);
-			meaningField.setText(meaning);
-			
+
+			AnalysisManager mgr = new AnalysisManager();
+			try {
+                String oppositedName = mgr.languageOpposition(firstWord);
+                oppositeName.setText(oppositedName);
+
+                boolean female = mgr.isFemale(oppositedName);
+                sexField.setText(female ? "Female" : "Male");
+
+                String derivations = mgr.processDerivations(oppositedName);
+                derivationsField.setText(derivations);
+
+                String meaning = mgr.processMeaning(oppositedName);
+                meaningField.setText(meaning);
+            } catch (AnalysisException e) {
+                JOptionPane.showMessageDialog(palantirFrame.getFrame(), e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+            }
+
 		}
 
 
