@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<origins>
+    <preg_replace function="__construct">
+        <group>
+            <search>John</search>
+            <replace>English</replace>
+        </group>
+        <group>
+            <search>Ahmed</search>
+            <replace>Arabic</replace>
+        </group>
+        <group>
+            <search>Isabella</search>
+            <replace>Spanish</replace>
+        </group>
+    </preg_replace>
+</origins>
