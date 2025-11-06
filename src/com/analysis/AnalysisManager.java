@@ -4,30 +4,49 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public class AnalysisManager {
 
-    private XmlManager xmlManager;
+    private final XmlManager xmlManager;
 
     public AnalysisManager() {
         this.xmlManager = new XmlManager();
+        loadAllXmlData();
+    }
+
+    private void loadAllXmlData() {
         try {
-            InputStream namesInputStream = getClass().getResourceAsStream(
-                    "/names.xml");
-            if (namesInputStream != null) {
-                xmlManager.parseNames(namesInputStream);
-            }
-        } catch (XmlParseException e) {
-            // Log the error or handle it gracefully
+            loadResource("/names.xml", xmlManager::parseNames);
+            loadResource("/Transliteration.xml", xmlManager::parseTranslation);
+            loadResource("/ArQuery.xml", xmlManager::parseDerivations);
+            loadResource("/name.xml", xmlManager::parseMeanings);
+            loadResource("/origins.xml", xmlManager::parseOrigins);
+        } catch (RuntimeException e) {
             e.printStackTrace();
         }
+    }
+
+    private void loadResource(String resourceName, XmlLoader loader) {
+        try (InputStream inputStream = getClass().getResourceAsStream(resourceName)) {
+            if (inputStream != null) {
+                loader.load(inputStream);
+            }
+        } catch (IOException | XmlParseException e) {
+            throw new RuntimeException("Failed to load resource: " + resourceName, e);
+        }
+    }
+
+    @FunctionalInterface
+    interface XmlLoader {
+        void load(InputStream inputStream) throws XmlParseException;
     }
 
     /**
      * return if the name is belong to male or female
      *
-     * @param name
-     * @return
+     * @param name the name to check
+     * @return true if the name is female, false otherwise
      */
     boolean isFemale(String name) {
         if (name == null || name.isEmpty()) {
@@ -42,81 +61,61 @@ public class AnalysisManager {
         char last = name.charAt(name.length() - 1);
         char beforeLast = name.length() > 1 ? name.charAt(name.length() - 2) : ' ';
 
-        if (last == 'ة' || last == 'ه' || last == 'ى' || last == 'ا'
-                || (last == 'ء' && beforeLast == 'ا')) {
-            return true;
-        }
-        return false;
+        return last == 'ة' || last == 'ه' || last == 'ى' || last == 'ا'
+                || (last == 'ء' && beforeLast == 'ا');
     }
 
     /**
      * getting the opposite language of the name
      *
-     * @param name
-     * @return
-     * @throws AnalysisException
+     * @param name the name to translate
+     * @return the translated name
+     * @throws AnalysisException if there is an error during processing
      */
     public String languageOpposition(String name) throws AnalysisException {
-        try {
-            InputStream translationInputStream = getClass().getResourceAsStream(
-                    "/Transliteration.xml");
-            if (translationInputStream == null) {
-                throw new AnalysisException("Transliteration.xml not found", null);
-            }
-            xmlManager.parseTranslation(translationInputStream);
-            return xmlManager.getTranslation(name);
-        } catch (XmlParseException | IOException e) {
-            throw new AnalysisException("Failed to process language opposition", e);
-        }
+        return xmlManager.getTranslation(name);
     }
 
     /**
      * processing the name derivations
      *
-     * @param name
-     * @return
-     * @throws AnalysisException
+     * @param name the name to process
+     * @return a string of derivations
+     * @throws AnalysisException if there is an error during processing
      */
     public String processDerivations(String name) throws AnalysisException {
-        try {
-            InputStream derivationsInputStream = getClass().getResourceAsStream(
-                    "/ArQuery.xml");
-            if (derivationsInputStream == null) {
-                throw new AnalysisException("ArQuery.xml not found", null);
-            }
-            xmlManager.parseDerivations(derivationsInputStream);
-            StringBuffer derivations = new StringBuffer();
-            for (String key : xmlManager.getDerivationsMap().keySet()) {
-                Pattern pattern = Pattern.compile(key.replaceAll("/", ""));
-                Matcher matcher = pattern.matcher(name);
-                if (matcher.matches()) {
-                    derivations.append(name + " " + matcher.replaceFirst(xmlManager.getDerivationsMap().get(key))).append(" , ");
-                }
-            }
-            return derivations.toString();
-        } catch (XmlParseException | IOException e) {
-            throw new AnalysisException("Failed to process derivations", e);
-        }
+        return xmlManager.getDerivationsMap().keySet().stream()
+                .map(key -> {
+                    Pattern pattern = Pattern.compile(key.replaceAll("/", ""));
+                    Matcher matcher = pattern.matcher(name);
+                    if (matcher.matches()) {
+                        return name + " " + matcher.replaceFirst(xmlManager.getDerivationsMap().get(key));
+                    }
+                    return null;
+                })
+                .filter(java.util.Objects::nonNull)
+                .collect(Collectors.joining(" , "));
     }
 
     /**
      * get the name meaning
      *
-     * @param name
-     * @return
-     * @throws AnalysisException
+     * @param name the name to get the meaning of
+     * @return the meaning of the name
+     * @throws AnalysisException if there is an error during processing
      */
     public String processMeaning(String name) throws AnalysisException {
-        try {
-            InputStream meaningInputStream = getClass().getResourceAsStream(
-                    "/name.xml");
-            if (meaningInputStream == null) {
-                throw new AnalysisException("name.xml not found", null);
-            }
-            xmlManager.parseMeanings(meaningInputStream);
-            return xmlManager.getMeaningsMap().get(name);
-        } catch (XmlParseException | IOException e) {
-            throw new AnalysisException("Failed to process meaning", e);
-        }
+        return xmlManager.getMeaningsMap().get(name);
+    }
+
+    /**
+     * get the name origin
+     *
+     * @param name the name to get the origin of
+     * @return the origin of the name
+     * @throws AnalysisException if there is an error during processing
+     */
+    public String processOrigin(String name) throws AnalysisException {
+        return xmlManager.getOriginsMap().get(name);
     }
 }
